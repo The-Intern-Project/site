@@ -1,6 +1,6 @@
 ---
 layout: article
-title: ! '{TODO TITLE GOES HERE}'
+title: ! '{title}'
 published: true
 categories:
   - 'TODO PICK ONE'
