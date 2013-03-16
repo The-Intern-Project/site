@@ -8,13 +8,13 @@
         <input type="text" id="email_signup_text">
         <button id="email_signup_submit">Sign Up</button>
         <script>
-            var firebase = new Firebase('https://internproject.firebaseio.com/email-signup');jk
+            var firebase = new Firebase('https://internproject.firebaseio.com/email-signup');
 
             $('#email_signup_submit').on('click', function() {
                 var email = $('#email_signup_text').val();
                 firebase.push({
                     email: email,
-                    submit_time: new Date().getTime() / 1000,
+                    submit_time: new Date().getTime() / 1000
                 });
                 alert("You're signed up");
             });
