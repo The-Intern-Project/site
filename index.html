@@ -1,1 +1,23 @@
-Oh, look, it's the world.
+<html>
+    <head>
+        <script src='https://cdn.firebase.com/v0/firebase.js'></script>
+        <script src='http://code.jquery.com/jquery-1.9.1.min.js'></script>
+    </head>
+    <body>
+        Give us your email!
+        <input type="text" id="email_signup_text">
+        <button id="email_signup_submit">Sign Up</button>
+        <script>
+            var firebase = new Firebase('https://internproject.firebaseio.com/email-signup');jk
+
+            $('#email_signup_submit').on('click', function() {
+                var email = $('#email_signup_text').val();
+                firebase.push({
+                    email: email,
+                    submit_time: new Date().getTime() / 1000,
+                });
+                alert("You're signed up");
+            });
+        </script>
+    </body>
+</html>
