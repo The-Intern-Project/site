@@ -51,7 +51,7 @@ html[xmlns] .slides {display: block;}
 
 /* Direction Nav */
 .flex-direction-nav {*height: 0;}
-.flex-direction-nav a {width: 30px; height: 30px; margin: -23px 0 0; display: block; background: url(../img/theme/bg_direction_nav.png) no-repeat 0 0; position: absolute; top: -3px; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;}
+.flex-direction-nav a {width: 30px; height: 30px; margin: -23px 0 0; display: block; /*background: url(../img/theme/bg_direction_nav.png) no-repeat 0 0;*/ position: absolute; top: -3px; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;}
 .flex-direction-nav .flex-next {background-position: 100% 0; right: 5px; opacity: 0.5;}
 .flex-direction-nav .flex-prev {right: 35px;opacity: 0.5;}
 .flexslider:hover .flex-next {opacity: 0.8; right: 5px;}
