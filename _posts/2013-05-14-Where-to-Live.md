@@ -5,6 +5,7 @@ published: true
 categories:
   - 'internship-logistics'
 author: Alexey Komissarouk
+original_url: http://alexeymk.com/an-interns-guide-to-a-summer-in-the-bay-area/
 ---
 
 # if there is an original url, the default content should say something like "adapted from <original_url>"
