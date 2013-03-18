@@ -1,0 +1,91 @@
+<link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
+
+<section class="parallax parallax-sections-17" id="parallax-sections-17">
+</section>
+	<section class="gallery page-sections-10 alternate-bg1" id="contact">
+		<div class="container">
+
+			<div class="titleBar"><span>Find out more</span><h2>Join our mailing list</h2></div>
+			<form action="" id="signup-form">
+				<label for="email-signup-text">Enter your email to be added to our mailing list</label>
+				<div class="input-append">
+					<input id="email-signup-text" name="email" class="email" type="text" placeholder="me@example.com">
+					<button class="color-btn main-btn" id="email-signup-submit">Sign Up</button>
+				</div>
+			</form>
+			<div class="success-message" style="text-align: center; padding: 30px 0px; display: none;">Successfully signed up</div>
+		</div> <!-- ./container -->
+	</section> <!-- ./services -->
+
+ 
+
+
+<section class="footer" id="foot">
+	<div class="container">
+
+		<span class="fl">© <a href="http://themes.webcreations907.com/ninezeroseven/option-one">Parallax</a> All Right Reserved</span><span class="fr"><a href="#up">^ Top</a></span>
+
+	</div><!-- ./container -->
+</section><!-- ./footer -->
+
+<script src='https://cdn.firebase.com/v0/firebase.js'></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39356319-1']);
+    _gaq.push(['_trackPageview']);
+    (function()
+    {
+         var ga = document.createElement('script');
+         ga.type = 'text/javascript';
+         ga.async = true;
+         ga.src = ('https:' == document.location.protocol ?
+             'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+         var s = document.getElementsByTagName('script')[0];
+         s.parentNode.insertBefore(ga, s);
+     })();
+</script>
+<script src="http://j.maxmind.com/js/geoip.js" charset="ISO-8859-1" type="text/javascript" ></script>
+<script>
+jQuery(document).ready(function($){
+	var firebase = new Firebase('https://internproject.firebaseio.com/email-signup');
+
+    function formatDate(d){
+		function pad(n){return n<10 ? '0'+n : n};
+
+		return pad(d.getMonth()+1)+'/'
+			+ pad(d.getDate())+'/'
+			+ d.getFullYear()+" "
+			+ pad(d.getHours()) + ":"
+			+ pad(d.getMinutes()) + ":"
+			+ pad(d.getSeconds());
+	};
+
+    $('#email-signup-submit').click(function(e) {
+    	e.preventDefault();
+    	e.stopPropagation();
+
+        var $text = $('#email-signup-text'),
+        	$form = $('#signup-form'),
+        	email = $text.val(),
+			loc = geoip_city() + ", " + geoip_region_name();
+
+        firebase.push({
+            email: email,
+            submit_time: formatDate(new Date()),
+            location: loc
+        }, function(error) {
+        	if (error !== null) {
+        		alert("ERROR: " + error);
+        	} else {
+        		$form.hide(0, function () {
+		            $(".success-message").css("text-indent", 0).fadeIn("slow").delay(2E3).fadeOut("slow", function () {
+		                $form.fadeIn("slow");
+		                $text.val('');
+		            });
+
+		        });
+        	}
+        });
+    });
+});
+</script>

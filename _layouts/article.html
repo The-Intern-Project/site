@@ -27,14 +27,7 @@
 	<meta name="robots" content="noindex,nofollow">
 <link rel="alternate" type="application/rss+xml" title="Parallax » Feed" href="http://themes.webcreations907.com/ninezeroseven/option-one/feed/">
 <link rel="alternate" type="application/rss+xml" title="Parallax » Comments Feed" href="http://themes.webcreations907.com/ninezeroseven/option-one/comments/feed/">
-<link rel="stylesheet" id="style-css" href="/assets/css/style.css" type="text/css" media="all">
-<link rel="stylesheet" id="google-fonts-css" href="/assets/css/css.css" type="text/css" media="all">
-<link rel="stylesheet" id="base-css" href="/assets/css/base.css" type="text/css" media="all">
-<link rel="stylesheet" id="skeleton-css" href="/assets/css/skeleton.css" type="text/css" media="all">
-<link rel="stylesheet" id="layout-css" href="/assets/css/layout.css" type="text/css" media="all">
-<link rel="stylesheet" id="prettyphoto-css" href="/assets/css/prettyPhoto.css" type="text/css" media="all">
-<link rel="stylesheet" id="flexslider-css" href="/assets/css/flexslider.css" type="text/css" media="all">
-<script type="text/javascript" src="assets/jquery_004.js"></script>
+{% include scripts.ext %}
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://themes.webcreations907.com/ninezeroseven/option-one/xmlrpc.php?rsd">
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themes.webcreations907.com/ninezeroseven/option-one/wp-includes/wlwmanifest.xml"> 
 <link rel="next" title="Arrow sniper?" href="http://themes.webcreations907.com/ninezeroseven/option-one/project/arrow-sniper/">
@@ -95,15 +88,17 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 
 		
 		<a href="http://themes.webcreations907.com/ninezeroseven/option-one/">
-			<h1 class="hide-text">Parallax</h1>
+			<h1 class="hide-text">The Intern Project</h1>
 		</a>
 
 		<nav class="mainMenu">
 			<ul id="main-menu" class="menu"><li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="http://themes.webcreations907.com/ninezeroseven/option-one/#up">Home</a></li>
 <li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-151"><a href="http://themes.webcreations907.com/ninezeroseven/option-one/#recent-works">Works</a></li>
+<!--
 <li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-150"><a href="http://themes.webcreations907.com/ninezeroseven/option-one/#services">Services</a></li>
 <li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-149"><a href="http://themes.webcreations907.com/ninezeroseven/option-one/#gallery">Portfolio</a></li>
 <li id="menu-item-148" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-148"><a href="http://themes.webcreations907.com/ninezeroseven/option-one/#blog">Blog</a></li>
+-->
 <li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-147"><a href="http://themes.webcreations907.com/ninezeroseven/option-one/#contact">Contact</a></li>
 </ul>		</nav>
 
@@ -113,9 +108,11 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 			<option selected="selected" value="">Menu</option>
 			<option value="http://themes.webcreations907.com/ninezeroseven/option-one/#up">- Home</option>
 			<option value="http://themes.webcreations907.com/ninezeroseven/option-one/#recent-works">- Works</option>
+			<!--
 			<option value="http://themes.webcreations907.com/ninezeroseven/option-one/#services">- Services</option>
 			<option value="http://themes.webcreations907.com/ninezeroseven/option-one/#gallery">- Portfolio</option>
 			<option value="http://themes.webcreations907.com/ninezeroseven/option-one/#blog">- Blog</option>
+			-->
 			<option value="http://themes.webcreations907.com/ninezeroseven/option-one/#contact">- Contact</option>
 		</select>
 
@@ -172,57 +169,17 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 </div><!-- ./container -->
 </section><!-- ./blog -->
 
-
-<section class="gallery alternate-bg1 page-sections-10" id="contact">
-	<div class="container">
-		<div class="titleBar"><span>Get in Touch</span><h2>Contact Me</h2></div>
-<div class="two-thirds column">
-<div style="padding:0px 5px 0px 0px;">
-<div class="heading"><h5> Send a Message </h5></div>
-<div class="contact-area"><form novalidate="novalidate" action="http://themes.webcreations907.com/ninezeroseven/option-one/wp-admin/admin-ajax.php" method="post" id="contactForm"><label class="first" for="name">Name</label><input id="name" name="name" class="required" type="text"><input id="nzs_contact_nonce" name="nzs_contact_nonce" value="f6d2b1c829" type="hidden"><input name="_wp_http_referer" value="/ninezeroseven/option-one/project/vintage-car/" type="hidden"><label for="cemail">Email</label><input id="cemail" name="email" class="required email" type="text"><label for="message">Message</label><textarea id="message" name="message" class="required" cols="90" rows="5"></textarea><button class="color-btn main-btn" type="submit">Send</button></form><div class="successMessage" style="text-align: center; padding: 30px 0px; display: none;"></div></div>
-</div>
-</div>
-<div class="one-third column">
-<div style="padding:0px 0px 0px 5px;">
-<div class="heading"><h5> Social Links </h5></div>
-<ul class="social-links"><li><a class="hide-text twitter" href="#">Twitter</a></li><li><a class="hide-text facebook" href="#">Facebook</a></li><li><a class="hide-text google" href="#">Google</a></li><li><a class="hide-text flickr" href="#">Flickr</a></li><li><a class="hide-text linkedin" href="#">LinkedIn</a></li><li><a class="hide-text pinterest" href="#">Pinterest</a></li><li><a class="hide-text dribbble" href="#">Dribbble</a></li><li><a class="hide-text deviantart" href="#">DeviantArt</a></li></ul>
-<p>&nbsp;</p>
-<div class="heading"><h5> Contact Info </h5></div>
-<ul class="contact-info"><li class="name">John Doe</li><li class="phone">555-555-5555</li><li class="address">1232 4th av, NoWhere MI 00000</li><li class="email"><a href="mailto:spam@spam.com">spam@spam.com</a></li></ul>
-</div>
-</div>
-	</div> <!-- ./container -->
-</section> <!-- ./services -->
-
-<section class="footer" id="foot">
-	<div class="container">
-
-		<span class="fl">© <a href="http://themes.webcreations907.com/ninezeroseven/option-one">Parallax</a> All Right Reserved</span><span class="fr"><a href="#up">^ Top</a></span>
-
-	</div><!-- ./container -->
-</section><!-- ./footer -->
-
-
-
-
+{% include footer.ext %}
 
 <!-- End Document
 ================================================== -->
 
-<script type="text/javascript" src="assets/jquery_006.js"></script>
-<script type="text/javascript" src="assets/scripts.js"></script>
-<script type="text/javascript" src="assets/jquery.js"></script>
-<script type="text/javascript" src="assets/jquery_005.js"></script>
-<script type="text/javascript" src="assets/main.js"></script>
-<script type="text/javascript" src="assets/jquery_003.js"></script>
-<script type="text/javascript" src="assets/jquery_002.js"></script>
-<script type="text/javascript" src="assets/contact-form.js"></script>
 <script type="text/javascript">
 jQuery(document).ready(function($){
 	$("#parallax-sections-17").parallax("50%", "0.3");
-	$("#parallax-sections-114").parallax("50%", "0.3");
-	$("#parallax-sections-116").parallax("50%", "0.3");
-	$("#parallax-sections-121").parallax("50%", "0.3");
+	//$("#parallax-sections-114").parallax("50%", "0.3");
+	//$("#parallax-sections-116").parallax("50%", "0.3");
+	//$("#parallax-sections-121").parallax("50%", "0.3");
 	$("#parallax-sections-135").parallax("50%", "0.3");
 $('#subMenu').change(function(){
 	var content = $(this).val();
