@@ -3,3 +3,4 @@ exclude: [".rvmrc", ".rbenv-version", ".gitignore", "README.md", "Rakefile", "ch
 markdown: rdiscount
 title: The Intern Project
 domain: http://internproject.io
+permalink: /:title/
