@@ -21,6 +21,7 @@ GEM
       syntax (>= 1.0.0)
     posix-spawn (0.3.6)
     rake (10.0.3)
+    rdiscount (2.0.7.1)
     syntax (1.0.0)
 
 PLATFORMS
@@ -30,3 +31,4 @@ DEPENDENCIES
   RedCloth
   jekyll (~> 0.11.2)
   rake
+  rdiscount
