@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
     });
 
 
-    $('.image-wrapper').hover(function(){
+    $('.img-frame').hover(function(){
 
 
         $(this).find('.mouse-effect').stop().animate({'opacity':'0.6'});
@@ -90,7 +90,7 @@ jQuery(document).ready(function ($) {
             easing: "easeInOutQuad"
         }, function () {
             $("a[rel^='prettyPhoto']").prettyPhoto();
-             $('.image-wrapper').hover(function(){
+             $('.img-frame').hover(function(){
 
                 $(this).find('.mouse-effect').stop().animate({'opacity':'0.6'});
                 $(this).find('.extra-links').stop().animate({'top':'50%'});

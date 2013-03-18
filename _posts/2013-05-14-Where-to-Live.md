@@ -6,7 +6,7 @@ categories:
   - 'internship-logistics'
 author: Alexey Komissarouk
 original_url: http://alexeymk.com/an-interns-guide-to-a-summer-in-the-bay-area/
-image_url: assets/img/writing-410x160.jpg
+image_url: /assets/img/writing-410x160.jpg
 tagline: Living in the Bay Area is hard. We help make it easier.
 ---
 
