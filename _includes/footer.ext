@@ -22,7 +22,7 @@
 <section class="footer" id="foot">
 	<div class="container">
 
-		<span class="fl">© <a href="http://themes.webcreations907.com/ninezeroseven/option-one">Parallax</a> All Right Reserved</span><span class="fr"><a href="#up">^ Top</a></span>
+		<span style="color: grey;">With Love by <a href="http://twitter.com/theAlexPoon">Alex Poon</a>, <a href="http://alexeymk.com/">Alexey Komissarouk</a>, <a href="https://www.facebook.com/donotstalkme?fref=ts">Owen Wang</a></span><span class="fr"><a href="#up">^ Top</a></span>
 
 	</div><!-- ./container -->
 </section><!-- ./footer -->
