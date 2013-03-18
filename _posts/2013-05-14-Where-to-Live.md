@@ -1,6 +1,6 @@
 ---
 layout: article
-title: ! 'Where to Live'
+title: Where to Live
 published: true
 categories:
   - 'internship-logistics',
