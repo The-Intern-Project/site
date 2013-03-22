@@ -1,0 +1,5 @@
+<p>By {{ page.author }}</p>
+
+{% if page.original_url %}
+<p>Adapted from <a href="{{ page.original_url }}">{{ page.original_url }}</a></p>
+{% endif %}

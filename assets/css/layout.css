@@ -244,10 +244,17 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 	padding:4px;
 	display: none;
 	opacity: 0;
+	font-size: 16px;
+	position: absolute;
+	top: 15px;
+	margin-left: -110px !important;
+	left: 50%;
 }
 #subMenu option{
 	padding-left:5px;
 }
+
+
 
 /* MAIN SLIDER
 ============================== */
@@ -302,18 +309,19 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 .titleBar span{
 	display:block;
 	font-weight: 300;
-	font-size: 16px;
+	font-size: 20px;
 	color:#303030;
 	margin-left: 1px;
 	padding: 0;
+	margin-bottom: 5px;
 }
 .titleBar h2{
 	/*text-shadow:1px 1px #dedede;*/
 	font-weight: 700;
-	font-size: 28px;
+	font-size: 36px;
 	padding-right: 10px;
 	display: inline-block;
-	line-height:28px;
+	line-height:36px;
 	background-color:#f2f2f2; 
 }
 
@@ -1352,17 +1360,19 @@ ul.item-detail li{
 }
 
 .img-frame h5{
-	font-size: 14px;
+	font-size: 16px;
 	margin: 8px 5px 0 5px;
 	border-bottom: 1px solid #dedede;
 	color:#303030;
 }
 
 .img-frame p{
-	font-size: 12px;
+	font-size: 14px;
 	color:#666666;
 	margin: 0;
 	padding: 3px 5px 7px 5px;
+	height: 45px;
+	overflow: hidden;
 }
 
 .link-preview{
@@ -1757,6 +1767,18 @@ a.btn:hover{
 			-webkit-background-size:250% auto !important;
 		}
 
+	}
+
+	.content p, .content ul, .content ol {
+		font-size: 16px;
+	}
+
+	.content ul, .content ol {
+		margin-left: 22px;
+	}
+
+	.content ul {
+		list-style: disc;
 	}
 
 

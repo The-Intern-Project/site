@@ -8,7 +8,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="UTF-8">
-	<title>Vintage Car » Parallax</title>
+	<title>{{ page.title }}</title>
 
 	<!-- Mobile Specific Metas
   ================================================== -->
@@ -125,12 +125,12 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 
 
 
-<section class="blog alternate-bg2" style="margin-top:80px;" id="blog">
+<section class="blog alternate-bg2" style="margin-top:80px;">
 	<div class="container">
 
 					
 		<div class="titleBar">
-			<h2>{{ title }}</h2>
+			<h1>{{ page.title }}</h1>
 		</div>
 
 		<div class="column posts">
@@ -141,7 +141,9 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 				<article class="post" style="padding-top:8px;">
 					<div class="content single clearfix">
 
-						<p>{{ content }}</p>
+						{% include header.ext %}
+
+						{{ content }}
 
 					</div>
 

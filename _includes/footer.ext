@@ -12,7 +12,7 @@
 					<button class="color-btn main-btn" id="email-signup-submit">Sign Up</button>
 				</div>
 			</form>
-			<div class="success-message" style="text-align: center; padding: 30px 0px; display: none;">Successfully signed up</div>
+			<div class="success-message">{% include success-message.ext %}</div>
 		</div> <!-- ./container -->
 	</section> <!-- ./services -->
 
@@ -22,7 +22,7 @@
 <section class="footer" id="foot">
 	<div class="container">
 
-		<span style="color: grey;">With Love by <a href="http://twitter.com/theAlexPoon">Alex Poon</a>, <a href="http://alexeymk.com/">Alexey Komissarouk</a>, <a href="https://www.facebook.com/donotstalkme?fref=ts">Owen Wang</a></span><span class="fr"><a href="#up">^ Top</a></span>
+		<span style="color: grey;">With Love by <a href="http://twitter.com/theAlexPoon">Alex Poon</a>, <a href="http://alexeymk.com/">Alexey Komissarouk</a>, <a href="http://owenwang.com">Owen Wang</a></span><span class="fr"><a href="#up">^ Top</a></span>
 
 	</div><!-- ./container -->
 </section><!-- ./footer -->

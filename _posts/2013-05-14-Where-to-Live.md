@@ -10,8 +10,6 @@ image_url: /assets/img/writing-410x160.jpg
 tagline: Living in the Bay Area is hard. We help make it easier.
 ---
 
-# if there is an original url, the default content should say something like "adapted from <original_url>"
-
 ## Live in San Francisco, Mountain View, or Palo Alto.
 As far as start-ups go, San Francisco is more artsy/hipster-ish/design-friendly, with a ton of startups mostly in the SOMA district and (from what I can tell) more reasonable working hours than down in MV/PA.  Mountain View and Palo Alto also have a reasonable amount of good food and events going on, but are nowhere near as busy as San Francisco.
 
