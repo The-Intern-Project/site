@@ -328,3 +328,5 @@ body,html{
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 40px !important; }
+  
+  #email-signup-text { background-color: white; }
