@@ -4,7 +4,7 @@ title: ! 'Bay Area Housing Guide'
 published: true
 categories:
   - 'internship-logistics'
-author: Alexey Komissarouk
+author: <a href="mailto:alexey@alexeymk.com">Alexey Komissarouk</a>
 original_url: http://alexeymk.com/an-interns-guide-to-a-summer-in-the-bay-area/
 image_url: /assets/img/writing-410x160.jpg
 tagline: ! 'Finding a solid place to live for the summer'
@@ -57,7 +57,7 @@ In San Francisco, if you're willing to share a bedroom or have a small place, or
 
 Palo Alto is roughly 20% cheaper than SF, and Mountain View is another 10% cheaper than Palo Alto [(see heat map)](https://www.kwelia.com/maps/public/sfbay).
 
-## Bonus: Should I live in SF and commute down to the Bay for my job?
+## PS: Should I live in SF and commute down to the Bay for my job?
 
 San Francisco is a more vibrant, busier place than South Bay.  Every year, a good number of interns decide to live up north and commute every day, either by Caltrain, car, or provided (Apple, Facebook, Google) shuttles.  The question is whether the better location justifies the longer commute.
 
@@ -67,7 +67,9 @@ San Francisco is a more vibrant, busier place than South Bay.  Every year, a goo
 
 ### Con
 - Consider about an hour of your day eaten up by the commute, every day.
-- Longer commutes are seriously unhealthy: [(research)](http://healthland.time.com/2012/05/08/long-commute-your-heart-and-waistline-may-suffer-for-it/)
+- Longer commutes are seriously unhealthy: [(research)](http://healthland.time.com/2012/05/08/long-commute-your-heart-and-waistline-may-suffer-for-it/).
 
 ** Rule of Thumb **:
 On average, do you intend to go out on more than one weeknight per week? If so, live in San Francisco.
+
+**PPS**: [25 Things I wish I knew before moving to San Francisco](http://jasonevanish.com/2013/01/17/25-things-i-wish-i-knew-before-moving-to-san-francisco/)
