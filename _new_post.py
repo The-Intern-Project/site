@@ -14,7 +14,8 @@ def generate_new_post(name, date):
     date=date.strftime("%Y-%m-%d %H:%M:%S")
   )
 
-  result_filename = "_posts/{title}.md".format(
+  result_filename = "_posts/{date}-{title}.md".format(
+    date=date.strftime("%Y-%m-%d"),
     title=urllib.quote(name.lower().replace(" ", "-").replace(":","-"))
   )
 
