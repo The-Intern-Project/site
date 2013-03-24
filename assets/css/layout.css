@@ -363,6 +363,18 @@ div.entice p{
 	font-size: 15px;
 }
 
+.project h6{
+    position: absolute;
+    z-index: 1;
+    margin-top: 6px;
+    margin-left: 12px;
+}
+
+.project .image-wrapper {
+    opacity: .5;
+
+}
+
 .project h4,.services h4,.contact h4{
 	font-weight: 700;
 	font-size: 15px;

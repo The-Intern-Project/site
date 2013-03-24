@@ -3,7 +3,7 @@ layout: article
 title: ! 'Bay Area Housing Guide'
 published: true
 categories:
-  - 'internship-logistics'
+  - 'internship logistics'
 author: <a href="mailto:alexey@alexeymk.com">Alexey Komissarouk</a>
 original_url: http://alexeymk.com/an-interns-guide-to-a-summer-in-the-bay-area/
 image_url: /assets/img/writing-410x160.jpg
