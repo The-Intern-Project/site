@@ -16,13 +16,19 @@
 		</div> <!-- ./container -->
 	</section> <!-- ./services -->
 
- 
+
 
 
 <section class="footer" id="foot">
 	<div class="container">
 
-		<span style="color: grey;">With Love by <a href="http://twitter.com/theAlexPoon">Alex Poon</a>, <a href="http://alexeymk.com/">Alexey Komissarouk</a>, <a href="http://owenwang.com">Owen Wang</a></span><span class="fr"><a href="#up">^ Top</a></span>
+		<span style="color: grey;">With Love by
+            <a href="http://twitter.com/theAlexPoon">Alex Poon</a>,
+            <a href="http://alexeymk.com/">Alexey Komissarouk</a>,
+            <a href="http://owenwang.com">Owen Wang</a>, and
+            <a href="http://tessrinearson.com/">Tess Rinearson</a>,
+            <!-- TODO - less awkward attribution model -->
+            </span><span class="fr"><a href="#up">^ Top</a></span>
 
 	</div><!-- ./container -->
 </section><!-- ./footer -->
