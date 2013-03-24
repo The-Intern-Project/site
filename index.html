@@ -89,35 +89,36 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 	<div class="container">
 
 
-		<a href="http://themes.webcreations907.com/ninezeroseven/option-one/">
-			<h1 class="hide-text">The Intern Project</h1>
-		</a>
+	<section class="gallery page-sections-12 alternate-bg1" id="recent-works">
+		<div class="container">
 
-		<nav class="mainMenu">
-    <ul id="main-menu" class="menu">
-<!--
-      <li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="#up">Home</a></li>
-<li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-151"><a href="#recent-works">Articles</a></li>
-<li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-150"><a href="#services">Services</a></li>
-<li id="menu-item-149" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-149"><a href="#gallery">Portfolio</a></li>
-<li id="menu-item-148" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-148"><a href="#blog">Blog</a></li>
-<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-147"><a href="#contact">Sign Up</a></li>
--->
-</ul>		</nav>
+			<div class="titleBar"><span>Take A Look</span><h2>Featured Articles</h2></div>
 
-		<!-- DROP DOWN MENU -->
+    {% for post in site.posts %}
 
-		<select size="1" id="subMenu" name="subMenu">
-			<option selected="selected" value="">Menu</option>
-			<option value="#up">- Home</option>
-			<option value="#recent-works">- Works</option>
-			<!--
-			<option value="#services">- Services</option>
-			<option value="#gallery">- Portfolio</option>
-			<option value="#blog">- Blog</option>
-			-->
-			<option value="#contact">- Sign Up</option>
-		</select>
+        <!-- make image opacity .6 -->
+        <!-- make div with category have
+        margin-top: 6px; margin-left-: 12px; z-index: 1; position: absolute -->
+		<div class="one-third column project">
+			<div class="gallery-padding">
+				<a href="{{ post.url }}">
+                    <h6>{{post.categories}}</h6>
+					<div class="img-frame">
+						<div class="image-wrapper">
+						<img src="{{ post.image_url }}" class="scale-with-grid"><div class="mouse-effect"></div>
+						</div>
+                        <h5>{{ post.title }}</h5>
+                        <p>{{ post.tagline }}</p>
+					</div>
+				<a/>
+			</div>
+		</div>
+    {% endfor %}
+
+
+		</div> <!-- ./container -->
+	</section> <!-- ./services -->
+
 
 		<!-- DROP DOWN ENDS -->
 
@@ -146,57 +147,6 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 
 	<ul style="visibility: visible;" class="quality" id="supersized"><li class="slide-0 prevslide"><a target="_blank"><img style="height: 1577.9px; width: 2545px; left: 0px; top: -124px;" src="assets/img/taxis.jpg"></a></li><li style="visibility: visible; opacity: 1;" class="slide-1 activeslide"><a target="_blank"><img style="width: 2300px; left: -200px; top: -187.5px; height: 1500.15px;" src="assets/img/main1_2.jpg"></a></li></ul></div>
 </section> <!-- ./headerContent -->
-
-	<section class="gallery page-sections-12 alternate-bg1" id="recent-works">
-		<div class="container">
-
-			<div class="titleBar"><span>Take A Look</span><h2>Featured Articles</h2></div>
-
-    {% for post in site.posts %}
-
-        <!-- make image opacity .6 -->
-        <!-- make div with category have
-        margin-top: 6px; margin-left-: 12px; z-index: 1; position: absolute -->
-		<div class="one-third column project">
-			<div class="gallery-padding">
-				<a href="{{ post.url }}">
-                    <h6>{{post.categories}}</h6>
-					<div class="img-frame">
-						<div class="image-wrapper">
-						<img src="{{ post.image_url }}" class="scale-with-grid"><div class="mouse-effect"></div>
-						</div>
-                        <h5>{{ post.title }}</h5>
-                        <p>{{ post.tagline }}</p>
-					</div>
-				<a/>
-			</div>
-		</div>
-    {% endfor %}
-
-
-
-
-<!--
-<div class="clear"></div>
-<div class="eight columns">
-<div class="heading"><h5> Lots Of Options </h5></div>
-<div style="padding:0px 5px 0px 0px;">
-<p>Mutley, you snickering, floppy eared hound. When courage is needed,
-you’re never around. Those medals you wear on your moth-eaten chest
-should be there for bungling at which you are best.</p>
-</div>
-</div>
-<div class="eight columns">
-<div class="heading"><h5> Options Panel </h5></div>
-<div style="padding:0px 0px 0px 5px;">
-<p>Mutley, you snickering, floppy eared hound. When courage is needed,
-you’re never around. Those medals you wear on your moth-eaten chest
-should be there for bungling at which you are best.</p>
-</div>
-</div> -->
-
-		</div> <!-- ./container -->
-	</section> <!-- ./services -->
 
 <section class="parallax parallax-sections-121" id="parallax-sections-121">
 	<div class="container message">About (TODO: make this way shorter)

@@ -1,9 +1,5 @@
 jQuery(document).ready(function ($) {
 
-    $(".full-header").sticky({
-        topSpacing: 0,
-        wrapperClassName: 'full-header'
-    });
 
 
     $('.img-frame').hover(function(){
