@@ -4,11 +4,10 @@ title: ! '{title}'
 published: true
 categories:
   - 'TODO PICK ONE'
-  - 'finding an internship',
-  - 'choosing an internship',
-  - 'internship logistics',
-  - 'meeting other interns',
-  - 'enjoying your summer',
+  - 'finding-an-internship',
+  - 'choosing-an-internship',
+  - 'internship-logistics',
+  - 'in-the-bay-area',
 author: Intern Project <intern@project.com>
 original_url: http://bobsblog.com/article
 image_url: /assets/img/writing-410x160.jpg

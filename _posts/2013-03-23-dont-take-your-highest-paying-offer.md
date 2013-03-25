@@ -3,7 +3,7 @@ layout: article
 title: ! "Don't take your highest-paying offer"
 published: true
 categories:
-  - 'choosing an internship'
+  - 'choosing-an-internship'
 author: <a href="mailto:alexey@alexeymk.com">Alexey Komissarouk</a>
 original_url: http://alexeymk.com/dont-take-your-highest-paying-internship-offe
 image_url: /assets/img/cashier_photo.png
