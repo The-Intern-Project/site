@@ -68,8 +68,13 @@ jQuery(document).ready(function($){
 
         var $text = $('#email-signup-text'),
         	$form = $('#signup-form'),
-        	email = $text.val(),
+        	email = $text.val();
+        var loc = "unknown";
+        try {
 			loc = geoip_city() + ", " + geoip_region_name();
+        } catch (e) {
+            // we don't have the city yet, so let's not record it.
+        }
 
         firebase.push({
             email: email,
