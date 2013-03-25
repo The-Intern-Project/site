@@ -12,7 +12,7 @@ tagline: ! "How much should I expect to get paid?"
 
 > Well, I wasn't really going to intern at X (say, Zynga, or Morgan Stanley) but they offered more than anybody else."
 
-## Don't do that.
+### Don't do that.
 
 It's easy to focus on the financial aspect of an offer, especially if it's the first time you've had a chance to make anywhere near this much. It's the most quantifiable aspect, and the sheer amount feels kind of surreal.
 

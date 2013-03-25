@@ -19,7 +19,7 @@
   ================================================== -->
 
 
-	  	
+
 
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -30,7 +30,7 @@
 <link rel="alternate" type="application/rss+xml" title="Parallax » Comments Feed" href="http://themes.webcreations907.com/ninezeroseven/option-one/comments/feed/">
 {% include scripts.ext %}
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://themes.webcreations907.com/ninezeroseven/option-one/xmlrpc.php?rsd">
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themes.webcreations907.com/ninezeroseven/option-one/wp-includes/wlwmanifest.xml"> 
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themes.webcreations907.com/ninezeroseven/option-one/wp-includes/wlwmanifest.xml">
 <link rel="next" title="Arrow sniper?" href="http://themes.webcreations907.com/ninezeroseven/option-one/project/arrow-sniper/">
 <meta name="generator" content="WordPress 3.5.1">
 <link rel="canonical" href="http://themes.webcreations907.com/ninezeroseven/option-one/project/vintage-car/">
@@ -46,7 +46,7 @@ h1, h2, h3, h4, h5 {
   line-height: 1.4;
 }
 
-/* PARALLAX CSS 
+/* PARALLAX CSS
 ============================== */
 #parallax-sections-17{
 	background:url("http://themes.webcreations907.com/ninezeroseven/option-one/wp-content/uploads/2013/02/new-taxi.jpg") repeat 50% -3px fixed transparent;
@@ -95,7 +95,7 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 <section class="topBar normal-menu" id="top">
 	<div class="container">
 
-		
+
 		<a href="http://themes.webcreations907.com/ninezeroseven/option-one/">
 			<h1 class="hide-text">The Intern Project</h1>
 		</a>
@@ -137,33 +137,33 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 <section class="blog alternate-bg2" style="margin-top:80px;">
 	<div class="container">
 
-					
+
 		<div class="titleBar">
 			<h1>{{ page.title }}</h1>
+            <p>By {{ page.author }} </p>
 		</div>
 
 		<div class="column posts">
 			<div class="leftpadding ajaxed">
-			
+
 
 				<!-- POST -->
 				<article class="post" style="padding-top:8px;">
 					<div class="content single clearfix">
 
-						{% include header.ext %}
 
 						{{ content }}
 
 					</div>
 
-				</article>	
+				</article>
 				<!-- ./END POST -->
 
-				
+
 				<!-- COMMENTS -->
 
 				<div class="comment-section">
-									
+
 				</div>
 
 				<!-- END COMMENTS -->
@@ -174,8 +174,13 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 
 			</div>
 
+            {% if page.original_url %}
+            <p><em>Adapted from <a href="{{ page.original_url }}">{{ page.original_url }}</em></a></p>
+            {% endif %}
 		</div> <!-- END PADDING -->
 	</div><!-- END TWO-THIRDS -->
+
+
 
 </div><!-- ./container -->
 </section><!-- ./blog -->
