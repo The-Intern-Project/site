@@ -203,7 +203,7 @@ h1,h2,h3,h4,h5,h6,.name{
 
 .topBar{
 	min-height: 90px;
-	border-bottom: 1px solid #c8c8c8;
+	/*border-bottom: 1px solid #c8c8c8;*/
 }
 .topBar h1{
 	display: inline-block;
@@ -294,7 +294,7 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 
 
 .titleBar{
-	/*background:url('../img/theme/sep.png') repeat-x 0 55%;*/
+	background:url('/assets/img/sep.png') repeat-x 0 55%;
 	padding-top: 40px;
 	padding-bottom: 15px;
 	margin-left: 10px;
@@ -324,7 +324,7 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 }
 
 .posts .titleBar{
-	/*background:url('../img/theme/sep.png') repeat-x 0 55%;*/
+	background:url('/assets/img/sep.png') repeat-x 0 55%;
 	padding-top: 40px;
 	padding-bottom: 35px;
 	margin-left: 0px;
