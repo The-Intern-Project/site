@@ -1,13 +1,9 @@
-AMK NEXT:
-- give people a reason to sign up to mailing list
-
 <link rel="stylesheet" type="text/css" href="/assets/css/footer.css">
 	<section class="gallery page-sections-10 alternate-bg1" id="contact">
 		<div class="container">
-
-			<div class="titleBar"><span>Find out more</span><h2>Join our mailing list</h2></div>
+			<div class="titleBar"><span>Sign up for updates</span><h2>Stay in the loop</h2></div>
 			<form action="" id="signup-form">
-				<label for="email-signup-text">Enter your email to be added to our mailing list</label>
+				<label for="email-signup-text">We'll send you new articles and worthwhile intern events throughout the summer.</label>
 				<div class="input-append">
 					<input id="email-signup-text" name="email" class="email" type="text" placeholder="me@example.com">
 					<button class="color-btn main-btn" id="email-signup-submit">Sign Up</button>
