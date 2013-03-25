@@ -6,7 +6,7 @@ categories:
   - 'choosing an internship'
 author: <a href="mailto:alexey@alexeymk.com">Alexey Komissarouk</a>
 original_url: http://alexeymk.com/dont-take-your-highest-paying-internship-offe
-image_url: /assets/img/writing-410x160.jpg
+image_url: /assets/img/cashier_photo.png
 tagline: ! "How much should I expect to get paid?"
 ---
 

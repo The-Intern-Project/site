@@ -6,7 +6,7 @@ categories:
   - 'internship logistics'
 author: <a href="mailto:alexey@alexeymk.com">Alexey Komissarouk</a>
 original_url: http://alexeymk.com/an-interns-guide-to-a-summer-in-the-bay-area/
-image_url: /assets/img/writing-410x160.jpg
+image_url: /assets/img/houses.png
 tagline: ! 'Finding a solid place to live for the summer'
 ---
 

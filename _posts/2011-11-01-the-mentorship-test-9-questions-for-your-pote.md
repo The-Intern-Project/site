@@ -6,7 +6,7 @@ categories:
   - 'choosing an internship'
 author: <a href="mailto:alexey@alexeymk.com">Alexey Komissarouk</a>
 original_url: http://alexeymk.com/the-mentorship-test-9-questions-for-your-pote/
-image_url: /assets/img/writing-410x160.jpg
+image_url: /assets/img/mentor.png
 tagline: ! '9 questions for your potential employer'
 ---
 
