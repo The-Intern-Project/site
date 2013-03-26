@@ -103,7 +103,7 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 		</a>
 
 		<nav class="mainMenu">
-			<ul id="main-menu" class="menu"><li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="/">Home</a></li>
+			<ul id="main-menu" class="menu"><li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="/">The Intern Project</a></li>
 <!--<li id="menu-item-151" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-151"><a href="/#recent-works">Works</a></li>-->
 <!--
 <li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-150"><a href="http://themes.webcreations907.com/ninezeroseven/option-one/#services">Services</a></li>
@@ -111,22 +111,20 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 <li id="menu-item-148" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-148"><a href="http://themes.webcreations907.com/ninezeroseven/option-one/#blog">Blog</a></li>
 -->
 <!--<li id="menu-item-147" class="menu-item menu-item-type-post_type menu-item-object-page-sections menu-item-147"><a href="#contact">Contact</a></li>-->
-</ul>		</nav>
+			</ul>	
+
+
+			<ul id="subMenu" class="menu"><li id="menu-item-27" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-27"><a href="/">The Intern Project</a></li>
+			</ul>
+		</nav>
 
 		<!-- DROP DOWN MENU -->
-
+<!--
 		<select size="1" id="subMenu" name="subMenu">
 			<option selected="selected" value="">Menu</option>
-			<option value="http://themes.webcreations907.com/ninezeroseven/option-one/#up">- Home</option>
-			<option value="http://themes.webcreations907.com/ninezeroseven/option-one/#recent-works">- Works</option>
-			<!--
-			<option value="http://themes.webcreations907.com/ninezeroseven/option-one/#services">- Services</option>
-			<option value="http://themes.webcreations907.com/ninezeroseven/option-one/#gallery">- Portfolio</option>
-			<option value="http://themes.webcreations907.com/ninezeroseven/option-one/#blog">- Blog</option>
-			-->
-			<option value="http://themes.webcreations907.com/ninezeroseven/option-one/#contact">- Contact</option>
+			
 		</select>
-
+-->
 		<!-- DROP DOWN ENDS -->
 
 	</div> <!-- ./container -->
@@ -177,13 +175,13 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 			</div>
 
             {% if page.original_url %}
-            <p><span class='st_fblike_large' displayText='Facebook Like'></span>
-<span class='st_plusone_large' displayText='Google +1'></span>
-<span class='st_facebook_large' displayText='Facebook'></span>
-<span class='st_twitter_large' displayText='Tweet'></span>
-<span class='st_email_large' displayText='Email'></span></p>
             <p><em>Adapted from <a href="{{ page.original_url }}">{{ page.original_url }}</em></a></p>
             {% endif %}
+            <p>
+			<span class='st_plusone_large' displayText='Google +1'></span>
+			<span class='st_facebook_large' displayText='Facebook'></span>
+			<span class='st_twitter_large' displayText='Tweet'></span>
+			<span class='st_email_large' displayText='Email'></span></p>
 		</div> <!-- END PADDING -->
 	</div><!-- END TWO-THIRDS -->
 
