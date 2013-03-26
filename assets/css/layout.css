@@ -301,6 +301,10 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 	margin-right: 10px;
 }
 
+.titleBar.articleTitle {
+	background: none;
+}
+
 .titleBar h1 {
     margin-bottom: 4px; /*goes to author */
 
