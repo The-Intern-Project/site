@@ -1838,6 +1838,10 @@ a.btn:hover{
 	background: rgba(0, 0, 0, 0.8);
 }
 
+.alternate-bg1 p {
+	font-size: 15px;
+}
+
 /* #Font-Face
 ================================================== */
 /* 	This is the proper syntax for an @font-face file
