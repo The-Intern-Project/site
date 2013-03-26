@@ -1834,6 +1834,10 @@ a.btn:hover{
 	}
 
 
+#slidecaption p {
+	background: rgba(0, 0, 0, 0.8);
+}
+
 /* #Font-Face
 ================================================== */
 /* 	This is the proper syntax for an @font-face file
