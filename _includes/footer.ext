@@ -10,6 +10,12 @@
 				</div>
 			</form>
 			<div class="success-message">{% include success-message.ext %}</div>
+
+            <p>
+<span class='st_plusone_large' displayText='Google +1'></span>
+<span class='st_facebook_large' displayText='Facebook'></span>
+<span class='st_twitter_large' displayText='Tweet'></span>
+<span class='st_email_large' displayText='Email'></span></p>
 		</div> <!-- ./container -->
 	</section> <!-- ./services -->
 
