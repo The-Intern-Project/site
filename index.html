@@ -97,7 +97,7 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 		<div class="one-third column project">
 			<div class="gallery-padding">
 				<a href="{{ post.url }}">
-                    <h6>{{post.categories[0] | replace: '-', ' '}}</h6>
+                    <h6><span>{{post.categories[0] | replace: '-', ' '}}</span></h6>
 					<div class="img-frame">
 						<div class="image-wrapper">
 						<img src="{{ post.image_url }}" class="scale-with-grid"><div class="mouse-effect"></div>
