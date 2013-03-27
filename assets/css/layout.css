@@ -53,20 +53,20 @@ a:hover, a:focus { color: #ad5803; }
 .topBar{
 	background-color:rgb(242, 242, 242);
 	border-color:#000000;
-  background-image: none;
+  	background-image: none;
 }
 
 .footer{
 	background-color: #303030;
 }
 
-.topBar h1.hide-text{
+.topBar > h1.hide-text{
 	/*background:url('../img/theme/logo2.png') no-repeat;*/
 	height:31px; /*YOUR LOGO WIDTH*/
 	width:114px; /*YOUR LOGO HEIGHT*/
 }
 
-.topBar h1{
+.topBar > h1{
 	font-size: 24px;
 	padding-left: 4px;
 }
@@ -207,7 +207,7 @@ h1,h2,h3,h4,h5,h6,.name{
 	min-height: 90px;
 	/*border-bottom: 1px solid #c8c8c8;*/
 }
-.topBar h1{
+.topBar > h1{
 	display: inline-block;
 	float:left;
 	line-height:28px;
@@ -459,10 +459,6 @@ div.entice p{
 section.blog{
 	padding-bottom: 52px;
 	/*color:#303030;*/
-}
-
-.blog .titleBar h2{
-
 }
 
 .page-template{
