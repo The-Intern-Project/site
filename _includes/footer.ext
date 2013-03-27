@@ -10,6 +10,12 @@
 				</div>
 			</form>
 			<div class="success-message">{% include success-message.ext %}</div>
+
+            <p>
+<span class='st_plusone_large' displayText='Google +1'></span>
+<span class='st_facebook_large' displayText='Facebook'></span>
+<span class='st_twitter_large' displayText='Tweet'></span>
+<span class='st_email_large' displayText='Email'></span></p>
 		</div> <!-- ./container -->
 	</section> <!-- ./services -->
 
@@ -22,7 +28,7 @@
         <span style="color: grey;">
             Did we miss something? Have an article we should include? <a href="mailto:wearetheinternproject@gmail.com">Let us know!</a>
         </span>
-        |
+<br />
 		<span style="color: grey;">With Love by
             <a href="http://twitter.com/theAlexPoon">Alex Poon</a>,
             <a href="http://alexeymk.com/">Alexey Komissarouk</a>,

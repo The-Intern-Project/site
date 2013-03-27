@@ -101,6 +101,9 @@ a:hover, a:focus { color: #ad5803; }
 	padding-right: 10px;
 }
 
+.message p {
+	display: block;
+}
 
 
 /* #Site Styles
@@ -108,7 +111,6 @@ a:hover, a:focus { color: #ad5803; }
 
 body{
 	font-family: 'Open Sans',arial,sans-serif;
-	font-size:13px;
 	font-weight:400;
 	line-height:19px;
 	color:#303030;
@@ -203,7 +205,7 @@ h1,h2,h3,h4,h5,h6,.name{
 
 .topBar{
 	min-height: 90px;
-	border-bottom: 1px solid #c8c8c8;
+	/*border-bottom: 1px solid #c8c8c8;*/
 }
 .topBar h1{
 	display: inline-block;
@@ -292,64 +294,6 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 
 /*END MAIN SLIDER*/
 
-
-.titleBar{
-	/*background:url('../img/theme/sep.png') repeat-x 0 55%;*/
-	padding-top: 40px;
-	padding-bottom: 15px;
-	margin-left: 10px;
-	margin-right: 10px;
-}
-
-.titleBar h1 {
-    margin-bottom: 4px; /*goes to author */
-
-}
-
-.titleBar p {
-    font-size: 16px;
-}
-
-#top-sticky-wrapper {
-  padding-top: 15px;
-}
-#top-sticky-wrapper .titleBar {
-  padding-top: 10px;
-  padding-bottom: 5px;
-}
-
-#top-sticky-wrapper .titleBar h2 {
-  font-size: 20px;
-  line-height: 22px;
-}
-
-.posts .titleBar{
-	/*background:url('../img/theme/sep.png') repeat-x 0 55%;*/
-	padding-top: 40px;
-	padding-bottom: 35px;
-	margin-left: 0px;
-	margin-right: 0px;
-}
-.titleBar span{
-	display:block;
-	font-weight: 300;
-	font-size: 20px;
-	color:#303030;
-	margin-left: 1px;
-	padding: 0;
-	margin-bottom: 5px;
-}
-.titleBar h2{
-	/*text-shadow:1px 1px #dedede;*/
-	font-weight: 700;
-	font-size: 36px;
-	padding-right: 10px;
-	display: inline-block;
-	line-height:36px;
-	background-color:#f2f2f2;
-}
-
-
 .entice{
 	font-size: 15px;
 	margin-top: -21px;
@@ -390,12 +334,23 @@ div.entice p{
 .project h6{
     position: absolute;
     z-index: 1;
-    margin-top: 6px;
-    margin-left: 12px;
+    margin-top: 3px;
+    margin-left: 3px;
+    width: 100%;
+}
+
+.project h6 span {
+	color: white; 
+	font: bold 24px/45px Helvetica, Sans-Serif; 
+	letter-spacing: -0.5px;  
+	background: rgb(0, 0, 0); /* fallback color */
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px; 
+	font-size: 15px;
 }
 
 .project .image-wrapper {
-    opacity: .3;
+    opacity: 1;
 }
 
 .project h4,.services h4,.contact h4{
@@ -1671,8 +1626,92 @@ a.btn:hover{
 	height:15px;
 }
 
+/* COMMON STYLES */
+
+.titleBar{
+	background:url('/assets/img/sep.png') repeat-x 0 55%;
+	padding-top: 40px;
+	padding-bottom: 15px;
+	margin: 60px 0 0 0;
+}
+
+.titleBar.articleTitle {
+	background: none;
+}
+
+.titleBar p {
+    font-size: 16px;
+}
+
+#top-sticky-wrapper {
+  padding-top: 15px;
+}
+#top-sticky-wrapper .titleBar {
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#top-sticky-wrapper .titleBar h2 {
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.posts .titleBar{
+	background:url('/assets/img/sep.png') repeat-x 0 55%;
+	padding-top: 40px;
+	padding-bottom: 35px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.titleBar span{
+	display:block;
+	font-weight: 300;
+	font-size: 20px;
+	color:#303030;
+	margin-left: 1px;
+	padding: 0;
+	margin-bottom: 5px;
+}
+.titleBar h2{
+	/*text-shadow:1px 1px #dedede;*/
+	font-weight: 700;
+	font-size: 36px;
+	padding-right: 10px;
+	display: inline-block;
+	line-height:36px;
+	background-color:#f2f2f2;
+}
+
+.titleBar h1 {
+    margin-bottom: 4px; /*goes to author */
+    background-color: #FFFFFF;
+
+}
 
 
+/* BLOG POSTS */
+
+.posts .titleBar{
+	background:url('/assets/img/sep.png') repeat-x 0 55%;
+	padding-top: 40px;
+	padding-bottom: 35px;
+}
+
+.posts h2:first-child {
+	margin-top: 20px;
+}
+
+.posts h2 {
+	margin-top: 80px;
+}
+
+.posts h3 {
+	margin-top: 50px;
+}
+
+.twitter-share-button {
+	vertical-align: text-bottom;
+}
 
 
 /* #Media Queries
@@ -1818,6 +1857,14 @@ a.btn:hover{
 		list-style: disc;
 	}
 
+
+#slidecaption p {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.alternate-bg1 p {
+	font-size: 15px;
+}
 
 /* #Font-Face
 ================================================== */

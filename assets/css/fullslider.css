@@ -46,6 +46,11 @@
 	margin:18px 0 15px 0;
 }
 
+.headerContent p{
+	text-shadow:1px 1px 1px #000;
+	font-weight: 700;
+}
+
 .headerContent h2 span{
 	text-shadow:1px 1px 1px #303030;
 	font-weight: 400;

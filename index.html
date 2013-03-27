@@ -69,10 +69,13 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 
 </style>
 <!-- END CUSTOM PAGE SECTIONS STYLE -->
-
+<script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "ur-b271f677-d5d9-880-7738-e7d6493fd0d", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 </head>
 
 <body class="home blog">
+
 <!-- Primary Page Layout
 	================================================== -->
 
@@ -97,7 +100,7 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 		<div class="one-third column project">
 			<div class="gallery-padding">
 				<a href="{{ post.url }}">
-                    <h6>{{post.categories[0] | replace: '-', ' '}}</h6>
+                    <h6><span>{{post.categories[0] | replace: '-', ' '}}</span></h6>
 					<div class="img-frame">
 						<div class="image-wrapper">
 						<img src="{{ post.image_url }}" class="scale-with-grid"><div class="mouse-effect"></div>
@@ -135,22 +138,24 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 		</div>
 
 		<div class="container message">
-            <div id="slidecaption"><h2>The Intern Project</h2><br>
-                <p>Everything you need to know to have an awesome summer. In one place.</p></div>
+            <div id="slidecaption">
+            	<h2>The Intern Project</h2><br>
+                <p>Everything you need to know to have an awesome summer. In one place.</p><br>
+            </div>
 		</div>
 
 
 	<ul style="visibility: visible;" class="quality" id="supersized"><li class="slide-0 prevslide"><a target="_blank"><img style="height: 1577.9px; width: 2545px; left: 0px; top: -124px;" src="assets/img/taxis.jpg"></a></li><li style="visibility: visible; opacity: 1;" class="slide-1 activeslide"><a target="_blank"><img style="width: 2300px; left: -200px; top: -187.5px; height: 1500.15px;" src="assets/img/main1_2.jpg"></a></li></ul></div>
 </section> <!-- ./headerContent -->
 
-<section class="parallax parallax-sections-121" id="parallax-sections-121">
-</section>
-
 <div class="clear"></div>
+<!--
+<section style="background-color: #262626; height: 200px; color: white;">
+</section>
+-->
 <section class="alternate-bg1">
     <div class="container">
         <div class="sixteen columns">
-            TODO style this, like, way better
             <div class="titleBar"><h2>About</h2></div>
             <div>
                 <p>Tech internships are kind of a wonderful thing.  You get to spend a summer meeting awesome fellow interns, learning about how great companies and early start-ups do their thing, and in general have a great summer.</p>
@@ -160,6 +165,7 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
         </div>
     </div>
 </section>
+
 
 {% include footer.ext %}
 
