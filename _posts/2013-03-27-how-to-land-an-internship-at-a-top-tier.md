@@ -6,7 +6,7 @@ categories:
   - 'finding-an-internship'
 author: <a href="https://plus.google.com/100838276097451809262/posts">Andrew Munn</a>
 original_url: http://www.munnytalks.com/2013/01/how-to-land-internship-at-top-tier.html
-image_url: /assets/img/houses.png
+image_url: /assets/img/hill.png
 tagline: ! 'Resumes, Referrals, and Interviews'
 ---
 
