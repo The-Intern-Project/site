@@ -6,7 +6,7 @@ categories:
   - 'finding-an-internship'
 author: <a href="tess.rinearson@gmail.com">Tess Rinearson</a>
 original_url: http://tessrinearson.com/blog/?p=483
-image_url: /assets/img/houses.png
+image_url: /assets/img/high-school.jpg
 tagline: ! 'Getting a kick-ass internship before college'
 ---
 
