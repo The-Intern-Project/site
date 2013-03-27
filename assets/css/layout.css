@@ -1651,11 +1651,6 @@ a.btn:hover{
   padding-bottom: 5px;
 }
 
-#top-sticky-wrapper .titleBar h2 {
-  font-size: 20px;
-  line-height: 22px;
-}
-
 .posts .titleBar{
 	background:url('/assets/img/sep.png') repeat-x 0 55%;
 	padding-top: 40px;
