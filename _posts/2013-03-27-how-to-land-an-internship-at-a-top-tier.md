@@ -7,7 +7,7 @@ categories:
 author: <a href="https://plus.google.com/100838276097451809262/posts">Andrew Munn</a>
 original_url: http://www.munnytalks.com/2013/01/how-to-land-internship-at-top-tier.html
 image_url: /assets/img/houses.png
-t dtagline: ! 'Resumes, Referrals, and Interviews'
+tagline: ! 'Resumes, Referrals, and Interviews'
 ---
 
 Want to work on the highest profile software projects in the world? Want to get paid more per hour for an internship than the average CS grad makes out of school? Want [TechCrunch to call you a genius?](http://techcrunch.com/2010/12/13/facebook-intern/) Then read on to learn how to land a killer internship at companies like Google, Facebook, Amazon, Microsoft, or Apple. In the following paragraphs I will teach you how to land interviews and succeed at technical interviews. This is the guide I wish I had three years ago when I was starting out as a fresh-faced frosh.
