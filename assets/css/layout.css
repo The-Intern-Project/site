@@ -1622,6 +1622,10 @@ a.btn:hover{
 	height:15px;
 }
 
+.twitter-share-button {
+	height: 27px !important;
+}
+
 /* COMMON STYLES */
 
 .titleBar{
