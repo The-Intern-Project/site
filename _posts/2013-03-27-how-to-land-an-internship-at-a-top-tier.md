@@ -1,16 +1,16 @@
 ---
 layout: article
-title: ! 'How to Land an Internship at a Top Tier Software Company"
+title: ! "Landing a top-tier internship"
 published: true
 categories:
-  - ''
+  - 'finding-an-internship'
 author: <a href="https://plus.google.com/100838276097451809262/posts">Andrew Munn</a>
 original_url: http://www.munnytalks.com/2013/01/how-to-land-internship-at-top-tier.html
 image_url: /assets/img/houses.png
-tagline: ! ''
+t dtagline: ! 'Resumes, Referrals, and Interviews'
 ---
 
-Want to work on the highest profile software projects in the world? Want to get paid more per hour for an internship than the average CS grad makes out of school? Want [TechCrunch to call you a genius?](http://techcrunch.com/2010/12/13/facebook-intern/) Then read on to learn how to land a killer internship at companies like Google, Facebook, Amazon, Microsoft, or Apple. In the following paragraphs I will teach you how to land interviews and succeed at technical interviews. This is the guide I wish I had three years ago when I was starting out as a fresh-faced frosh. 
+Want to work on the highest profile software projects in the world? Want to get paid more per hour for an internship than the average CS grad makes out of school? Want [TechCrunch to call you a genius?](http://techcrunch.com/2010/12/13/facebook-intern/) Then read on to learn how to land a killer internship at companies like Google, Facebook, Amazon, Microsoft, or Apple. In the following paragraphs I will teach you how to land interviews and succeed at technical interviews. This is the guide I wish I had three years ago when I was starting out as a fresh-faced frosh.
 
 ##My Credentials
 I’m Software Engineering student at the University of Waterloo in my third year. In the past two years I’ve interned at a startup called Xtreme Labs, Amazon.com, and Google. At Amazon I worked in the exploding industry of cloud computing – creating the next generation of Amazon Web Services. I worked on [Elastic Beanstalk](http://aws.amazon.com/elasticbeanstalk/). At Google I contributed to the upcoming [Honeycomb release](http://developer.android.com/about/versions/android-3.0-highlights.html) of Android. In addition to these internships I have interviewed with many startups and established companies like Facebook, Microsoft, Zynga, Bloomberg, Hulu, and Qualcomm.
@@ -80,7 +80,7 @@ One gray area of interviewing concerns what to do when you receive a question yo
 This has only happened to me once. I stopped the interviewer mid question description and told him that I’d heard that one before, and I quickly described the solution. Instead of asking me a new question we just had a chat about life the company I was interviewing for. I got the offer.
 
 ##Poker Face
-The one aspect of interviews I hate and fear is the poker face. This is when the interviewer never lets on if you’re on the right track with a problem. He or she will simply frown at you, never revealing whether you’re making a complete idiot of yourself. You’ll finish writing code only to hear, “Are you sure that’s correct?” This is the most terrifying question an interviewer can ask you. Stay calm and carefully walk through your code and explain what it does. There is nothing else you can do. On occasion, post-interview, I realize I made a mistake or even misunderstood the question. It’s a terrible realization. 
+The one aspect of interviews I hate and fear is the poker face. This is when the interviewer never lets on if you’re on the right track with a problem. He or she will simply frown at you, never revealing whether you’re making a complete idiot of yourself. You’ll finish writing code only to hear, “Are you sure that’s correct?” This is the most terrifying question an interviewer can ask you. Stay calm and carefully walk through your code and explain what it does. There is nothing else you can do. On occasion, post-interview, I realize I made a mistake or even misunderstood the question. It’s a terrible realization.
 I’d estimate that about half of interviewers use the poker face technique. It is the stuff of nightmares.
 
 ##Social Skills
@@ -91,7 +91,7 @@ It’s OK to make jokes. Especially at a place like Waterloo, the interviewer wi
 One area where social interaction can make or break the interview is the last five to ten minutes when the interviewer asks you if you have any questions. Start asking the interviewer what he or she does at the company, how long they’ve been there, and if they like it. You’ll have an interesting conversation that will make you stick out in the interviewer’s mind later. As a plus, you’ll learn a little bit about the culture and happiness of employees at that company.
 
 ##Dress Code
-Don’t wear a suit. Suits are overly formal for interviewing with hipster, west coast software companies. Plus, who wants to work for a company that expects a suit in an interview? Walk into the interview in jeans and a trendy t-shirt from [threadless.com](http://www.threadless.com/). For example, I showed up to an interview with Facebook wearing the three wolf moon shirt and my interviewer smiled, laughed and said that was the coolest thing he’d ever seen somebody wear to an interview. 
+Don’t wear a suit. Suits are overly formal for interviewing with hipster, west coast software companies. Plus, who wants to work for a company that expects a suit in an interview? Walk into the interview in jeans and a trendy t-shirt from [threadless.com](http://www.threadless.com/). For example, I showed up to an interview with Facebook wearing the three wolf moon shirt and my interviewer smiled, laughed and said that was the coolest thing he’d ever seen somebody wear to an interview.
 Note due to reddit outrage: This advice only applies to laid back consumer products companies and startups. Dress formally for healthcare tech companies, banks, defense contractors and companies you aren’t sure about. When in doubt, go for business casual.
 
 ##A rising tide lifts all Boats

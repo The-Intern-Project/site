@@ -1,13 +1,13 @@
 ---
 layout: article
-title: ! 'How to Get a Kickass Internship as a High School Student"
+title: ! "Internships for High Schoolers"
 published: true
 categories:
-  - ''
+  - 'finding-an-internship'
 author: <a href="tess.rinearson@gmail.com">Tess Rinearson</a>
 original_url: http://tessrinearson.com/blog/?p=483
 image_url: /assets/img/houses.png
-tagline: ! ''
+tagline: ! 'Getting a kick-ass internship before college'
 ---
 
 I was an intern at Valve the summer after my senior year. Another one of my friends worked at NASA. Others worked for Microsoft, Bank of America, or interesting startups. Others threw their hands up in the air because “no one wants a high school intern.”
@@ -32,13 +32,13 @@ If this seems daunting–well, it is. But remember that you probably already hav
 
 However, strong networks were only one piece of the elusive high school internship puzzle. I’ve also noticed another trend.
 
-You’re going to have to be ballsy.
+**You’re going to have to be ballsy.**
 
 Stretch the requirements, and try applying to some internships for college students. My friend who worked at NASA actually had an internship for college students, but he applied anyways.
 
 Try looking into some industries that you’re not familiar with. I didn’t know a thing about video games, so I was nervous about applying to Valve. (I didn’t grow up playing games. When I was nine, my dad brought home an Xbox and told my sister and I that we couldn’t touch it.) However, once I got to Valve it was clear that there’s a healthy crew of non-gamers–and, better yet, I developed an appreciation for the gaming industry.
 
-Of course, there are other considerations.
+**Of course, there are other considerations.**
 
 If you happen to live in an area with a vibrant tech scene, you’re in luck. A number of my friends who were local to Seattle were able to snag Microsoft high school internships (and another, from Boston, was an intern at Microsoft’s NERD Center). This also makes access to startups easier. If you live in a less urban or less tech-centric area, though, you may have to consider relocating for the summer, or stomaching a long commute. It’s not super common among HS interns, but it definitely happens–my ex-NASA friend, for instance, moved from the East Coast to the Midwest for several weeks. Larger companies will often have corporate housing, which makes temporary relocation relatively straightforward.
 
