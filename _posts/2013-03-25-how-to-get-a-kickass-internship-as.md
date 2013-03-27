@@ -4,7 +4,7 @@ title: ! "Internships for High Schoolers"
 published: true
 categories:
   - 'finding-an-internship'
-author: <a href="mailto:tess.rinearson@gmail.com">Tess Rinearson</a>
+author: <a href="http://twitter.com/temiri">Tess Rinearson</a>
 original_url: http://tessrinearson.com/blog/?p=483
 image_url: /assets/img/high-school.jpg
 tagline: ! 'Getting a kick-ass internship before college'
