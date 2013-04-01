@@ -328,7 +328,11 @@ div.entice p{
 .gallery-padding .img-frame h5{
 	margin: 12px 12px 6px 12px;
 	color:#707070;
-	font-size: 15px;
+	font-size: 13px;
+}
+
+.gallery-padding .img-frame h5 span {
+	font-weight: bold;
 }
 
 .project h6{
