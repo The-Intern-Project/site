@@ -3,7 +3,7 @@
 		<div class="container">
 			<div class="titleBar"><span>Sign up for updates</span><h2>Stay in the loop</h2></div>
 			<form action="" id="signup-form">
-				<label for="email-signup-text">Don't miss out on hackathons, intern meetups, speakers and other startup events throughout the summer.</span></label>
+				<label for="email-signup-text">We'll let you know about intern events throughout the summer.</label>
 				<div class="input-append">
 					<input class="email-signup-text" name="email" class="email" type="text" placeholder="student@seas.school.edu">
 					<button class="color-btn main-btn" class="email-signup-submit">Sign Up</button>
