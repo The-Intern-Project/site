@@ -86,7 +86,7 @@ jQuery(document).ready(function($){
     	e.preventDefault();
     	e.stopPropagation();
 
-        var $text = $('#email-signup-text'),
+        var $text = $(this).parent().find('.email-signup-text'),
         	$form = $('#signup-form'),
         	email = $text.val();
         var loc = "unknown";
