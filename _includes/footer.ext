@@ -5,7 +5,7 @@
 			<form action="" id="signup-form">
 				<label for="email-signup-text">Don't miss out on hackathons, intern meetups, speakers and other startup events throughout the summer.</span></label>
 				<div class="input-append">
-					<input id="email-signup-text" name="email" class="email" type="text" placeholder="me@example.com">
+					<input id="email-signup-text" name="email" class="email" type="text" placeholder="student@seas.school.edu">
 					<button class="color-btn main-btn" id="email-signup-submit">Sign Up</button>
 				</div>
 			</form>
