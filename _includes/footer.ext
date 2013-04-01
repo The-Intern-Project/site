@@ -2,7 +2,7 @@
 	<section class="gallery page-sections-10 alternate-bg1" id="contact">
 		<div class="container">
 			<div class="titleBar"><span>Sign up for updates</span><h2>Stay in the loop</h2></div>
-			<form action="" id="signup-form">
+			<form action="" id="signup-form" class="signup-form">
 				<label for="email-signup-text">We'll let you know about intern events throughout the summer.</label>
 				<div class="input-append">
 					<input class="email-signup-text" name="email" class="email" type="text" placeholder="student@seas.school.edu">
