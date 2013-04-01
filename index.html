@@ -73,7 +73,7 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 		    {% for post in site.posts %}
 
 		        <!-- make image opacity .6 -->
-		        <!-- make div with category have
+		        <!-- make div with category havehttp://0.0.0.0:4000/choosing-an-internship/the-mentorship-test-9-questions-for-your-pote
 		        margin-top: 6px; margin-left-: 12px; z-index: 1; position: absolute -->
 				<div class="one-third column project">
 					<div class="gallery-padding">
@@ -92,16 +92,19 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 		    {% endfor %}
 		    	<div class="one-third column project">
 					<div class="gallery-padding">
-						<a href="{{ post.url }}">
 							<div class="img-frame" style="height: 211.9375px">
+								<div>
 		                        <h5 style="color: black; text-transform: none; font-size: 1.5em; line-height: 1.6em; border-bottom: 0px;">Don't miss out on a curated list of the summer's best <br /><span>hackathons</span>, <span>intern meetups</span>, <span>speakers</span> and <span>startup events</span></h5>
-		                        
+		                        <div class="success-message" style="text-align: center; padding-top: 10px; font-size: 1.1em;">{% include success-message.ext %}</div>
 		                        	<div class="input-append" style="margin-left: 20px;">
-										<input class="email-signup-text" name="email" class="email" type="text" placeholder="me@example.com">
-										<button class="color-btn main-btn" class="email-signup-submit">Sign Up</button>
+		                        		
+			                        	<form action="" class="signup-form">
+											<input class="email-signup-text" name="email" class="email" type="text" placeholder="me@example.com">
+											<button class="color-btn main-btn" class="email-signup-submit">Sign Up</button>
+										</form>
 									</div>
+								</div>
 							</div>
-						</a>
 					</div>
 				</div>
 
