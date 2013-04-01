@@ -1687,6 +1687,14 @@ a.btn:hover{
 
 }
 
+#signup-message {
+	color: black;
+	text-transform: none;
+	font-size: 1.5em;
+	line-height: 1.6em;
+	border-bottom: 0px;
+}
+
 
 /* BLOG POSTS */
 
@@ -1729,7 +1737,25 @@ a.btn:hover{
 
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {
+		#signup-message {
+			font-size: 18px;
+		}
 
+		.entry .message  #slidecaption h2 {
+			font-size: 50px;
+		}
+
+		.entry .message #slidecaption p {
+			font-size: 20px;
+		}
+
+		.gallery-padding .img-frame h5 {
+			font-size: 12px;
+		}
+
+		.img-frame p {
+			height: 70px;
+		}
 	}
 
 	/* All Mobile Sizes (devices and browser) */
@@ -1775,8 +1801,13 @@ a.btn:hover{
 			display: block;
 			margin: 12px auto 15px auto;
 		}
-		.entry .message {
-			display: none;
+
+		.entry .message  #slidecaption h2 {
+			font-size: 50px;
+		}
+
+		.entry .message #slidecaption p {
+			font-size: 20px;
 		}
 
 }
@@ -1799,9 +1830,15 @@ a.btn:hover{
 			display: block;
 			margin: 12px auto 15px auto;
 		}
-		.entry .message {
-			display: none;
+
+		.entry .message  #slidecaption h2 {
+			font-size: 30px;
 		}
+
+		.entry .message #slidecaption p {
+			font-size: 15px;
+		}
+
 		.topBar .mainMenu ul{
 			margin: 0;
 		}
