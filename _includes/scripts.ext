@@ -1,20 +1,6 @@
-<link rel="stylesheet" id="style-css" href="/assets/css/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="google-fonts-css" href="/assets/css/css.css" type="text/css" media="all">
 <link rel="stylesheet" id="base-css" href="/assets/css/base.css" type="text/css" media="all">
 <link rel="stylesheet" id="skeleton-css" href="/assets/css/skeleton.css" type="text/css" media="all">
 <link rel="stylesheet" id="layout-css" href="/assets/css/layout.css" type="text/css" media="all">
-<link rel="stylesheet" id="prettyphoto-css" href="/assets/css/prettyPhoto.css" type="text/css" media="all">
-<link rel="stylesheet" id="flexslider-css" href="/assets/css/flexslider.css" type="text/css" media="all">
-<link rel="stylesheet" id="supersized-css" href="/assets/css/supersized.css" type="text/css" media="all">
-<link rel="stylesheet" id="shutter-css" href="/assets/css/supersized_002.css" type="text/css" media="all">
-<link rel="stylesheet" id="fullslider-option-css" href="/assets/css/fullslider.css" type="text/css" media="all">
 <script type="text/javascript" src="/assets/js/jquery_004.js"></script>
-<script type="text/javascript" src="/assets/js/supersized.js"></script>
-<script type="text/javascript" src="/assets/js/supersized_002.js"></script>
-<script type="text/javascript" src="/assets/js/jquery_006.js"></script>
-<script type="text/javascript" src="/assets/js/scripts.js"></script>
-<script type="text/javascript" src="/assets/js/jquery.js"></script>
-<script type="text/javascript" src="/assets/js/jquery_005.js"></script>
 <script type="text/javascript" src="/assets/js/main.js"></script>
-<script type="text/javascript" src="/assets/js/jquery_003.js"></script>
-<script type="text/javascript" src="/assets/js/jquery_002.js"></script>

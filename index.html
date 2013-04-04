@@ -37,23 +37,6 @@ layout: default
 	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themes.webcreations907.com/ninezeroseven/option-one/wp-includes/wlwmanifest.xml">
 	<meta name="generator" content="WordPress 3.5.1">
 
-<!-- CUSTOM PAGE SECTIONS STYLE -->
-<style type="text/css">
-
-nav.mainMenu ul li a{
-	color:#b5b5b5;
-}
-nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
-	color:#CC6633;
-}
-
-
-</style>
-<!-- END CUSTOM PAGE SECTIONS STYLE -->
-<script type="text/javascript">var switchTo5x=true;</script>
-<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
-<script type="text/javascript">stLight.options({publisher: "ur-b271f677-d5d9-880-7738-e7d6493fd0d", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
-</head>
 
 <body class="home blog">
 
@@ -137,71 +120,15 @@ nav.mainMenu ul li a:hover,nav.mainMenu ul li.active a{
 
 <section class="headerContent entry">
 	<div class="super">
-
-		<a style="display: block;" id="prevslide" class="load-item"></a>
-		<a style="display: block;" id="nextslide" class="load-item"></a>
-
-		<div style="display: block;" id="progress-back" class="load-item">
-			<div style="left: -983.213px;" id="progress-bar"></div>
-		</div>
-
 		<div class="container message">
             <div id="slidecaption">
             	<h2>The Intern Project</h2><br>
                 <p>Everything you need to know to have an awesome summer. In one place.</p><br>
             </div>
 		</div>
-
-
-	<ul style="visibility: visible;" class="quality" id="supersized"><li style="visibility: visible; opacity: 1;" class="slide-1 activeslide"><a target="_blank"><img style="width: 2300px; left: -200px; top: -187.5px; height: 1500.15px;" src="assets/img/main1_2.jpg"></a></li></ul></div>
+	</div>
 </section> <!-- ./headerContent -->
 
 <div class="clear"></div>
-<!--
-<section style="background-color: #262626; height: 200px; color: white;">
-</section>
--->
-
-	<script type="text/javascript">
-jQuery(document).ready(function($){
-	$("#page-links a").live("click",function(event){
-		event.preventDefault();
-		var post_id = $(this).attr("href");
-		$(".ajaxed").animate({opacity : "0.1"});
-			$("html, body").animate({ scrollTop: $("#blog").offset().top -80 }, 1000);
-		$(".ajaxed").load(post_id+" .ajaxed", function(){
-		$(".ajaxed").animate({opacity : "1"});
-
-			$('.img-frame').hover(function(){
-				$(this).find('.mouse-effect').stop().animate({'opacity':'0.6'});
-				$(this).find('.extra-links').stop().animate({'top':'50%'});
-				 },function(){
-				 $(this).find('.mouse-effect').stop().animate({'opacity':'0'});
-				$(this).find('.extra-links').stop().animate({'top':'-50%'});
-			});
-
-
-		});
-	});
-
-
-	$("#parallax-sections-17").parallax("50%", "0.3");
-	$("#parallax-sections-135").parallax("50%", "0.3");
-	$('#subMenu').change(function(){
-		var content = $(this).val();
-		var checkURL = content.match(/^#([^\/]+)$/i);
-		if(checkURL){
-
-			var goPosition = $(content).offset().top - 80;
-			$('html,body').animate({ scrollTop: goPosition}, 'slow');
-
-		}else{
-			window.location = content;
-		}
-	});
-});
-
-</script>
-
 
 </body></html>
