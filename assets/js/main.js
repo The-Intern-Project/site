@@ -8,4 +8,6 @@ jQuery(document).ready(function ($) {
         $(this).find('.extra-links').stop().animate({'top':'-50%'});
     });
 
+    var currentCategory = $('.t_line_view').find('.selected').data('category'),
+        $postItems = $('.post-item');
 });
