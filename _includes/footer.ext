@@ -5,7 +5,7 @@
 			<form action="" id="signup-form" class="signup-form">
 				<label for="email-signup-text">We'll let you know about intern events throughout the summer.</label>
 				<div class="input-append">
-					<input class="email-signup-text" name="email" class="email" type="text" placeholder="student@seas.school.edu">
+					<input class="email-signup-text" name="email" class="email" type="text" placeholder="student@seas.school.edu" style="width: 250px;">
 					<button class="color-btn main-btn" class="email-signup-submit">Sign Up</button>
 				</div>
 			</form>
@@ -15,10 +15,6 @@
                 <span class="share twitter-share">
             <a href="https://twitter.com/share" class="twitter-share-button" data-text="InternProject.IO - everything you need for an awesome summer in the Bay Area">Tweet</a>
             <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                </span>
-                <span class="share hn-share" style="display: none;">
-                <!-- dont use this button until we ship -->
-            <iframe frameborder="no" scrolling="no" height="50px" width="350px" src="http://hnlike.com/upvote.php?link=http%3A%2F%2Finternproject.io&title=Intern+Project.IO">iframes not supported by your browser</iframe>
                 </span>
                 <span class="share facebook-share">
                 <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Finternproject.io&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=35&amp;appId=274354229359647" scrolling="no" frameborder="0" style="border:none; width:450px; height:25px;" allowTransparency="true"></iframe>

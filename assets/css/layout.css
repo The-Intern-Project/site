@@ -47,7 +47,73 @@ a:hover, a:focus { color: #ad5803; }
 }
 
 .headerContent{
-	background:url('') #000;
+	background: url('/assets/img/main1_2.jpg') #000;
+}
+
+.headerContent .message{
+	padding-top: 50px; /*ADDED*/
+}
+.entry .message p{
+	/*background:url('../img/theme/pbg.png') repeat;*/
+	display: inline-block;
+	border-radius: 4px;
+	padding:4px 7px;
+}
+.entry .message h2{
+	font-size: 100px;
+	color:#fff;
+	margin: 20px 0 50px 0;
+	padding:3px 0 6px 0; /*added2*/
+	border-top:1px dashed #fff;
+	border-bottom:1px dashed #fff;
+	display: inline-block;
+	line-height: 100px;
+}
+.headerContent{
+	border-bottom: 1px solid #000;
+	height:100%;
+	position: relative;
+	top:0;
+	z-index: 1;
+}
+.headerContent .social{
+	display: block;
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	bottom: 120px;
+}
+.headerContent .social a{
+	display:inline-block;
+	margin-right:2px;
+
+}
+
+.headerContent h2{
+	text-shadow:1px 1px 1px #000;
+	font-weight: 700;
+	color:#91e5fa;
+	font-size: 68px;
+	line-height: 72px;
+	margin:18px 0 15px 0;
+}
+
+.headerContent p{
+	text-shadow:1px 1px 1px #000;
+	font-weight: 700;
+}
+
+.headerContent h2 span{
+	text-shadow:1px 1px 1px #303030;
+	font-weight: 400;
+	line-height: 19px;
+	font-size: 19px;
+	color:#efefef;
+	display: block;
+}
+
+.headerContent h2 span strong{
+	color:#cc6633;
 }
 
 .topBar{
@@ -1105,149 +1171,6 @@ ul.plan .plan-head span{
 ul.plan .order-btn{
 	border: none;
 }
-
-
-/* SOCIAL LINKS
-============================== */
-ul.social-links{
-	float: right;
-	margin:0;
-	overflow: hidden;
-	padding-right: 5px;
-}
-ul.social-links li{
-	float: left;
-	display: inline-block;
-	margin-left: 3px;
-	border: none;
-}
-ul.social-links li a, .social a{
-	/*background: url('../img/theme/social-icons.png') left bottom;*/
-	width: 24px;
-	height: 24px;
-	display: block;
-	-webkit-transition:all 0.3s ease-in;
-    -moz-transition:all 0.3s ease-in;
-  	-o-transition:all 0.3s ease-in;
-   	transition:all 0.3s ease-in;
-
-}
-ul.social-links li a.facebook, .social a.twitter{
-	background-position:left bottom;
-}
-
-ul.social-links li a.facebook, .social a.facebook{
-	background-position:-30px bottom;
-}
-ul.social-links li a.google, .social a.google{
-	background-position:-60px bottom;
-}
-ul.social-links li a.dribbble, .social a.dribbble{
-	background-position:-90px bottom;
-}
-ul.social-links li a.flickr, .social a.flickr{
-	background-position:-119px bottom;
-}
-ul.social-links li a.deviantart, .social a.deviantart{
-	background-position:-149px bottom;
-}
-ul.social-links li a.linkedin, .social a.linkedin{
-	background-position:-180px bottom;
-}
-ul.social-links li a.pinterest, .social a.pinterest{
-	background-position:-209px bottom;
-}
-ul.social-links li a:hover, .social a.twitter:hover{
-	background-position:left 0;
-}
-
- /*NEW*/
-
-ul.social-links li a.rss, .social a.rss{
-	background-position:-238px bottom;
-}
-
-ul.social-links li a.instagram, .social a.instagram{
-	background-position:-267px bottom;
-}
-
-ul.social-links li a.vimeo, .social a.vimeo{
-	background-position:-298px bottom;
-}
-
-ul.social-links li a.email, .social a.email{
-	background-position:-328px bottom;
-}
-
-ul.social-links li a.youtube, .social a.youtube{
-	background-position:-358px bottom;
-}
-
-ul.social-links li a.behance, .social a.behance{
-	background-position:-386px bottom;
-}
-
-ul.social-links li a.soundcloud, .social a.soundcloud{
-	background-position:-416px bottom;
-}
-ul.social-links li a.ustream, .social a.ustream{
-	background-position:-447px bottom;
-}
-
-
-ul.social-links li a.facebook:hover, .social a.facebook:hover{
-	background-position:-30px 0;
-}
-ul.social-links li a.google:hover, .social a.google:hover{
-	background-position:-60px 0;
-}
-ul.social-links li a.dribbble:hover, .social a.dribbble:hover{
-	background-position:-90px 0;
-}
-ul.social-links li a.flickr:hover, .social a.flickr:hover{
-	background-position:-119px 0;
-}
-ul.social-links li a.deviantart:hover, .social a.deviantart:hover{
-	background-position:-149px 0;
-}
-ul.social-links li a.linkedin:hover, .social a.linkedin:hover{
-	background-position:-180px 0;
-}
-ul.social-links li a.pinterest:hover, .social a.pinterest:hover{
-	background-position:-209px 0;
-}
-
-/*NEW*/
-ul.social-links li a.rss:hover, .social a.rss:hover{
-	background-position:-238px 0;
-}
-
-ul.social-links li a.instagram:hover, .social a.instagram:hover{
-	background-position:-267px 0;
-}
-
-ul.social-links li a.vimeo:hover, .social a.vimeo:hover{
-	background-position:-298px 0;
-}
-ul.social-links li a.email:hover, .social a.email:hover{
-	background-position:-328px 0;
-}
-
-ul.social-links li a.youtube:hover, .social a.youtube:hover{
-	background-position:-358px 0;
-}
-ul.social-links li a.behance:hover, .social a.behance:hover{
-	background-position:-386px 0;
-}
-
-ul.social-links li a.soundcloud:hover, .social a.soundcloud:hover{
-	background-position:-416px 0;
-}
-
-ul.social-links li a.ustream:hover, .social a.ustream:hover{
-	background-position:-447px 0;
-}
-
 
 
 /* FOOTER AREA
