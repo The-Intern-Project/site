@@ -1,3 +1,5 @@
+window.edu_warning_given = false;
+
 jQuery(document).ready(function ($) {
   $('.img-frame').hover(function(){
     $(this).find('.mouse-effect').stop().animate({'opacity':'0.6'});
@@ -33,6 +35,17 @@ jQuery(document).ready(function ($) {
         $form = $(this).parent().parent(),
         email = $text.val();
 
+    if (!isEmail(email)) {
+      alert("Make sure your email address is correct.");
+      return false;
+    } else if (!/edu/.test(email)) {
+      if (!window.edu_warning_given) {
+        alert("Warning: make sure to sign up with a .edu to be hear about intern-only events");
+        window.edu_warning_given = true;
+        return false;
+      }
+    }
+
     var loc = "unknown";
     try {
       loc = geoip_city() + ", " + geoip_region_name();
@@ -58,3 +71,7 @@ jQuery(document).ready(function ($) {
     });
   });
 });
+
+function isEmail(email){
+    return /^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*$/.test(email);
+}
