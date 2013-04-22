@@ -4,3 +4,4 @@
 <link rel="stylesheet" id="layout-css" href="/assets/css/layout.css" type="text/css" media="all">
 <script type="text/javascript" src="/assets/js/jquery_004.js"></script>
 <script type="text/javascript" src="/assets/js/main.js"></script>
+<script type="text/javascript" src="/assets/js/purl.js"></script>
