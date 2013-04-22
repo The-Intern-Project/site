@@ -1,6 +1,24 @@
 window.edu_warning_given = false;
 
 jQuery(document).ready(function ($) {
+  // check for localstorage
+  if (!window.localStorage) {
+    // super crappy shim, only works on same page.
+    window.localStorage = {
+      setItem: function(key, val) {
+          this[key] = val;
+      },
+      getItem: function(key) {
+          return this[key];
+      }
+    };
+  }
+
+  var referrer = $.url().param('referred_by');
+  if (referrer) {
+    localStorage.setItem('referred_by', referrer);
+  }
+
   $('.img-frame').hover(function(){
     $(this).find('.mouse-effect').stop().animate({'opacity':'0.6'});
     $(this).find('.extra-links').stop().animate({'top':'50%'});
@@ -56,6 +74,7 @@ jQuery(document).ready(function ($) {
     firebase.push({
       email: email,
       submit_time: formatDate(new Date()),
+      referrer: localStorage.getItem('referred_by'),
       location: loc
     }, function(error) {
       if (error !== null) {
