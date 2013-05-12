@@ -6,7 +6,7 @@ categories:
   - 'finding-an-internship'
 author: <a href="http://twitter.com/gayle">Gayle Laakmann McDowell</a>
 original_url: http://2011f.pennapps.com/blog/2011/9/15/size-matters-how-coding-resumes-differ-between-big-companies.html
-image_url: /assets/img/hill.jpg
+image_url: /assets/img/pencils.jpg
 tagline: ! 'How Coding Resumes Differ Between Big Companies and Startups'
 ---
 
