@@ -29,7 +29,7 @@
 
 <section class="footer" id="foot">
 	<div class="container">
-
+    <div class="attribution">
         <span style="color: grey;">
             Did we miss something? Have an article we should include? <a href="mailto:wearetheinternproject@gmail.com">Let us know!</a>
         </span>
@@ -41,7 +41,13 @@
             <a href="http://tessrinearson.com/">Tess Rinearson</a>
             <!-- TODO - less awkward attribution model -->
         </span>
+    </div>
 
+<div class = "a16z">
+  <!--<img src = "/assets/img/ah_logo.png" />-->
+  Sponsored by <a href = "http://a16z.com">Andressen Horowitz</a>
+</div>
+<div style = "clear:both"></div>
 
 	</div><!-- ./container -->
 </section><!-- ./footer -->
