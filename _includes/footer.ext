@@ -44,8 +44,12 @@
     </div>
 
 <div class = "a16z">
-  <!--<img src = "/assets/img/ah_logo.png" />-->
-  Sponsored by <a href = "http://a16z.com">Andressen Horowitz</a>
+  <div class = "sponsors-headline">
+    Our Partners for 2013
+  </div>
+  <a href = "http://a16z.com">
+    <img src = "/assets/img/a16_logo.png" height="36px" />
+  </a>
 </div>
 <div style = "clear:both"></div>
 
