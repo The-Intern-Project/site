@@ -1,6 +1,6 @@
 import json
 from sys import argv
-from datetime import datetime, timedelta
+from datetime import datetime
 
 print "usage: python <script> source_json"
 
@@ -8,9 +8,9 @@ print "usage: python <script> source_json"
 source = json.load(open(argv[1], 'r'))
 all_data_points = source.values()[0].values()
 
-num_days = 7  # change if desired
+last_pull = datetime(2013, 05, 22)
 
-date_cutoff = datetime.now() - timedelta(days=7)
+date_cutoff = last_pull
 recent_signups = [item for item in all_data_points if
     datetime.strptime(item['submit_time'].split()[0], "%m/%d/%Y") > date_cutoff
 ]
