@@ -10,115 +10,113 @@ layout: default
 <html lang="en-US"><!--<![endif]--><head>
 <meta name="description" content="The intern project helps interns find the best places to live, great places to eat, and helps them get the most out of their internship. Sign up on the mailing list to find out more about events and meet people!" />
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-	<!-- Basic Page Needs
+  <!-- Basic Page Needs
   ================================================== -->
-	<meta charset="UTF-8">
-	<title>The Intern Project</title>
+  <meta charset="UTF-8">
+  <title>The Intern Project</title>
 
-	<!-- Mobile Specific Metas
+  <!-- Mobile Specific Metas
   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-		<!-- CSS
+    <!-- CSS
   ================================================== -->
 
 
 
 
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 
-	<meta name="robots" content="noindex,nofollow">
-	<link rel="alternate" type="application/rss+xml" title="Parallax » Feed" href="http://themes.webcreations907.com/ninezeroseven/option-one/feed/">
-	<link rel="alternate" type="application/rss+xml" title="Parallax » Comments Feed" href="http://themes.webcreations907.com/ninezeroseven/option-one/comments/feed/">
-	{% include scripts.ext %}
-	<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://themes.webcreations907.com/ninezeroseven/option-one/xmlrpc.php?rsd">
-	<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themes.webcreations907.com/ninezeroseven/option-one/wp-includes/wlwmanifest.xml">
-	<meta name="generator" content="WordPress 3.5.1">
+  <meta name="robots" content="noindex,nofollow">
+  <link rel="alternate" type="application/rss+xml" title="Parallax » Feed" href="http://themes.webcreations907.com/ninezeroseven/option-one/feed/">
+  <link rel="alternate" type="application/rss+xml" title="Parallax » Comments Feed" href="http://themes.webcreations907.com/ninezeroseven/option-one/comments/feed/">
+  {% include scripts.ext %}
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://themes.webcreations907.com/ninezeroseven/option-one/xmlrpc.php?rsd">
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themes.webcreations907.com/ninezeroseven/option-one/wp-includes/wlwmanifest.xml">
+  <meta name="generator" content="WordPress 3.5.1">
 
 
 <body class="home blog">
 
 <!-- Primary Page Layout
-	================================================== -->
-
-<div id="up"></div>
+  ================================================== -->
 
 <!-- TOP BAR -->
 <section class="headerContent entry">
-	<div class="super">
-		<div class="container message">
+  <div class="super">
+    <div class="container message">
             <div id="slidecaption">
-            	<h2>The Intern Project</h2><br>
+              <h2>The Intern Project</h2><br>
                 <p>Everything you need to know to have an awesome summer. In one place.</p><br>
             </div>
-		</div>
-	</div>
+    </div>
+  </div>
 </section> <!-- ./headerContent -->
 
-<div style="height: 510px;" class="full-header" id="top-sticky-wrapper">
+<div class="full-header" id="top-sticky-wrapper">
 <section class="topBar" id="top">
-	<div class="container">
+  <div class="container">
 
-	<section class="gallery alternate-bg1" id="recent-works">
-		<div class="container">
-				{% for post in site.posts %}			  	
-					<div class="one-third column project">
-						<div class="gallery-padding">
-							<a class="post-item" href="{{ post.url }}" data-category="{{post.categories[0]}}">
-								<h6><span>{{post.categories[0] | replace: '-', ' '}}</span></h6>
-								<div class="img-frame">
-									<div class="image-wrapper">
-									<img src="{{ post.image_url }}" class="scale-with-grid"><div class="mouse-effect"></div>
-									</div>
-			                        <h5>{{ post.title }}</h5>
-			                        <p>{{ post.tagline }}</p>
-								</div>
-							</a>
-						</div>
-					</div>
-			    {% endfor %}
+  <section class="gallery alternate-bg1" id="recent-works">
+    <div class="container">
+        {% for post in site.posts %}
+          <div class="one-third column project">
+            <div class="gallery-padding">
+              <a class="post-item" href="{{ post.url }}" data-category="{{post.categories[0]}}">
+                <h6><span>{{post.categories[0] | replace: '-', ' '}}</span></h6>
+                <div class="img-frame">
+                  <div class="image-wrapper">
+                  <img src="{{ post.image_url }}" class="scale-with-grid"><div class="mouse-effect"></div>
+                  </div>
+                              <h5>{{ post.title }}</h5>
+                              <p>{{ post.tagline }}</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          {% endfor %}
 
- 		    	<div class="one-third column project">
-					<div class="gallery-padding">
-							<div class="img-frame" style="height: 211.9375px">
-								<div>
-		                        <h5 id="signup-message">Don't miss out on a curated list of the summer's best <br /><span>hackathons</span>, <span>intern meetups</span>, <span>speakers</span> and <span>startup events</span></h5>
-		                        <div class="success-message" style="text-align: center; padding-top: 10px; font-size: 1.1em;">{% include success-message.ext %}</div>
-		                        	<div class="input-append" style="margin-left: 20px;">
-		                        		
-			                        	<form action="" class="signup-form">
-											<input class="email-signup-text" name="email" class="email" type="text" placeholder="me@example.com">
-											<button class="color-btn main-btn" class="email-signup-submit">Sign Up</button>
-										</form>
-									</div>
-								</div>
-							</div>
-					</div>
-				</div>
+          <div class="one-third column project">
+          <div class="gallery-padding">
+              <div class="img-frame" style="height: 211.9375px">
+                <div>
+                            <h5 id="signup-message">Don't miss out on a curated list of the summer's best <br /><span>hackathons</span>, <span>intern meetups</span>, <span>speakers</span> and <span>startup events</span></h5>
+                            <div class="success-message" style="text-align: center; padding-top: 10px; font-size: 1.1em;">{% include success-message.ext %}</div>
+                              <div class="input-append" style="margin-left: 20px;">
 
-		</div> <!-- ./container -->
-	</section> <!-- ./services -->
+                                <form action="" class="signup-form">
+                      <input class="email-signup-text" name="email" class="email" type="text" placeholder="me@example.com">
+                      <button class="color-btn main-btn" class="email-signup-submit">Sign Up</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+
+    </div> <!-- ./container -->
+  </section> <!-- ./services -->
 
 
-		<!-- DROP DOWN ENDS -->
+    <!-- DROP DOWN ENDS -->
 
-	<section class="alternate-bg1">
-	    <div class="container">
-	        <div class="sixteen columns">
-	            <div class="titleBar"><h2>About</h2></div>
-	            <div>
-	                <p>Tech internships are kind of a wonderful thing.  You get to spend a summer meeting awesome fellow interns, learning about how great companies and early start-ups do their thing, and in general have a great summer.</p>
-	                <p>We've been interns before. We've written about the experience, organized intern events and helped organize intern communities. Internproject.io is an effort to create a single destination for everything required to have a great internship in the Bay Area, curated and maintained to avoid redundancy.</p>
-	                <p>Make sure to sign up for updates to find out when we post more articles as well as hear about events this summer.</p>
-	            </div>
-	        </div>
-	    </div>
-	</section>
-	</div> <!-- ./container -->
+  <section class="alternate-bg1">
+      <div class="container">
+          <div class="sixteen columns">
+              <div class="titleBar"><h2>About</h2></div>
+              <div>
+                  <p>Tech internships are kind of a wonderful thing.  You get to spend a summer meeting awesome fellow interns, learning about how great companies and early start-ups do their thing, and in general have a great summer.</p>
+                  <p>We've been interns before. We've written about the experience, organized intern events and helped organize intern communities. Internproject.io is an effort to create a single destination for everything required to have a great internship in the Bay Area, curated and maintained to avoid redundancy.</p>
+                  <p>Make sure to sign up for updates to find out when we post more articles as well as hear about events this summer.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  </div> <!-- ./container -->
 
-	{% include footer.ext %}
+  {% include footer.ext %}
 </section>
 </div> <!-- ./topBar -->
 
