@@ -8,7 +8,7 @@ print "usage: python <script> source_json"
 source = json.load(open(argv[1], 'r'))
 all_data_points = source.values()[0].values()
 
-last_pull = datetime(2013, 05, 22)
+last_pull = datetime(2013, 06, 25)
 
 date_cutoff = last_pull
 recent_signups = [item for item in all_data_points if
