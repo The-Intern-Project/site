@@ -5,20 +5,9 @@ from firebase import firebase
 from mailsnake import MailSnake
 from mailsnake.exceptions import *
 
-'''
-ms = MailSnake('0ffe3bf01dafb47436bf81d47c6dae22-us4')
-
 batches = []
-email = {'EMAIL': 'testtest@gmail.com'}
-batches.append(email)
 
-try:
-    ms.listBatchSubscribe(id='d7bce2ac5d', batch=batches, double_optin=False) # returns "Everything's Chimpy!"
-except MailSnakeException:
-    print 'An error occurred. :('
-
-exit()
-'''
+ms = MailSnake('0ffe3bf01dafb47436bf81d47c6dae22-us4')
 
 firebaseapp = firebase.FirebaseApplication(
   'https://internproject.firebaseio.com',
@@ -43,12 +32,20 @@ signedup_recently = [user['email'] for user in signedup_on_firebase.values()
        last_pull_datetime
 ]
 
-print signedup_recently
+for e in signedup_recently:
+	email = {'EMAIL': e}
+	batches.append(email)
+
+try:
+    ms.listBatchSubscribe(id='d7bce2ac5d', batch=batches, double_optin=False) # returns "Everything's Chimpy!"
+    mailchimp_worked = True
+except MailSnakeException:
+    print 'An error occurred. :('
 
 #{u'email': u'drajeshree@gwu.edu', u'location': u', ', u'submit_time': u'06/07/2013 19:07:26'}
 
 # TODO Send to mailchimp here then set variable to true
-print signedup_recently
+print batches
 mailchimp_worked = False
 
 if mailchimp_worked:
