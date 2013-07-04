@@ -1,27 +1,38 @@
 import json
-from sys import argv
+import os
 from datetime import datetime
+from firebase import firebase
 
-print "usage: python <script> source_json"
+firebaseapp = firebase.FirebaseApplication(
+  'https://internproject.firebaseio.com',
+  None
+)
+firebaseapp.authentication = firebase.FirebaseAuthentication(
+  'pRUr2LaCuvLszUCioUYRFvbDpMYAzaOZd4joMkNJ',
+  'wearetheinternproject@gmail.com'
+)
 
+signedup_on_firebase = firebaseapp.get('/email-signup', None)
 
-source = json.load(open(argv[1], 'r'))
-all_data_points = source.values()[0].values()
+last_pull_datetime = datetime.fromtimestamp(int(
+    os.getenv('last_sync_stamp',
+              datetime(2013, 06, 25).strftime('%s'))
+))
 
-last_pull = datetime(2013, 06, 25)
+date_format = '%m/%d/%Y %X'
 
-date_cutoff = last_pull
-recent_signups = [item for item in all_data_points if
-    datetime.strptime(item['submit_time'].split()[0], "%m/%d/%Y") > date_cutoff
+signedup_recently = [user['email'] for user in signedup_on_firebase.values()
+    if datetime.strptime(user['submit_time'], date_format) >
+       last_pull_datetime
 ]
-print "{} emails since last week".format(len(recent_signups))
 
-legit_signups = [item for item in recent_signups
-    if not item['email'].endswith('.com')]
+#{u'email': u'drajeshree@gwu.edu', u'location': u', ', u'submit_time': u'06/07/2013 19:07:26'}
 
-print "intern emails you should add: "
-print "\n".join(item['email'] for item in legit_signups)
+# TODO Send to mailchimp here then set variable to true
+print signedup_recently
+mailchimp_worked = False
 
-print "emails since last week that may not be legit"
-print "\n".join([item['email'] for item in recent_signups
-    if item not in legit_signups])
+if mailchimp_worked:
+  print "Ran successfully at {}".format(datetime.now())
+  print "{} emails since last time".format(len(signedup_recently))
+  os.putenv('last_sync_stamp', datetime.now().strptime('%s'))
