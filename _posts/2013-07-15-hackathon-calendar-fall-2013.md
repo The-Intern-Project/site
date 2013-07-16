@@ -22,25 +22,23 @@ Reasons to go: Starting a hackathon, eh guys? First time event featuring seminar
 
 Reasons to go: Over $5,000 in prizes, plus a chance to beat an MIT on their home turf (or, if you go to MIT, defend your honor).  October is v2, v1 seems to have 200 hackers in February 2013.
 
-- Oct 12-13: [HackRU](http://www.hackru.org) New Brunswick, NJ 24 hours.
+- Oct 12-13 [HackRU](http://www.hackru.org) New Brunswick, NJ 24 hours.
 
 Reasons to go: Rutgers CS students are an unbelievably creative bunch. They've been throwing this event since 2011, and they're a solid bunch.
 
-- Nov 8-10: [HackPrinceton](http://hackprinceton.com) Princeton NJ 24 hours.
-
-Reasons to go: Since 2011.  Featuring a dedicated Hardware Hack Track and what is apparently an unbelievable gorges campus.
+- [HackPrinceton](http://hackprinceton.com) Nov 8-10, Princeton NJ 24 hours.
+Since 2011.  Featuring a dedicated Hardware Hack Track and what is apparently an unbelievable gorges campus.
 
 Not yet scheduled for the fall:
 -------------------------------
 
-- [HackNY](http://theinternproject.com/hackathons/): New York, NY. TBA, probably in October/November.
-
+- HackNY: http://hackny.org/a/s2013/, New York, NY. TBA, probably in October/November.
 Organized by HackNY, a non-profit by professors from Columbia & NYU dedicated to keeping hackers off the (Wall) Street.  Every semester since 2010, so this would be v8.  Great hacker community and a chance to see New York at 5AM when you throw your hands up and wander around looking for doughnuts.
 
 - …and probably others I haven't heard of.  Let us know at wearetheinternproject@gmail.com
 
 ***And, from the *damn it guys, learn to procrastinate* section, upcoming 2014 hackathon dates include***
 
-- Jan 17-19: PennApps Spring 2014
+- PennApps Spring 2014, Jan 17-19
 
-- Jan 31-Feb 1: [TartanHacks](tartanhacks.com)·Pittsburg PA, at CMU
+- TartanHacks (tartanhacks.com)·Pittsburg PA, at CMU. 2014, January 31-Feb 1
