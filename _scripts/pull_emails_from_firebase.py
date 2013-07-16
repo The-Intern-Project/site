@@ -38,6 +38,7 @@ for e in signedup_recently:
 
 try:
     ms.listBatchSubscribe(id='d7bce2ac5d', batch=batches, double_optin=False) # returns "Everything's Chimpy!"
+    ms.listBatchSubscribe(id='b83180baa4', batch=batches, double_optin=False) # returns "Everything's Chimpy!"
     mailchimp_worked = True
 except MailSnakeException:
     print 'An error occurred. :('
@@ -46,9 +47,8 @@ except MailSnakeException:
 
 # TODO Send to mailchimp here then set variable to true
 print batches
-mailchimp_worked = False
 
 if mailchimp_worked:
   print "Ran successfully at {}".format(datetime.now())
   print "{} emails since last time".format(len(signedup_recently))
-  os.putenv('last_sync_stamp', datetime.now().strptime('%s'))
+  os.putenv('last_sync_stamp', datetime.now().strtime('%s'))
