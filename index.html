@@ -62,20 +62,22 @@ layout: default
   <section class="gallery alternate-bg1" id="recent-works">
     <div class="container">
         {% for post in site.posts %}
-          <div class="one-third column project">
-            <div class="gallery-padding">
-              <a class="post-item" href="{{ post.url }}" data-category="{{post.categories[0]}}">
-                <h6><span>{{post.categories[0] | replace: '-', ' '}}</span></h6>
-                <div class="img-frame">
-                  <div class="image-wrapper">
-                  <img src="{{ post.image_url }}" class="scale-with-grid"><div class="mouse-effect"></div>
+          {% if not post.hide_from_front_page %}
+            <div class="one-third column project">
+              <div class="gallery-padding">
+                <a class="post-item" href="{{ post.url }}" data-category="{{post.categories[0]}}">
+                  <h6><span>{{post.categories[0] | replace: '-', ' '}}</span></h6>
+                  <div class="img-frame">
+                    <div class="image-wrapper">
+                    <img src="{{ post.image_url }}" class="scale-with-grid"><div class="mouse-effect"></div>
+                    </div>
+                                <h5>{{ post.title }}</h5>
+                                <p>{{ post.tagline }}</p>
                   </div>
-                              <h5>{{ post.title }}</h5>
-                              <p>{{ post.tagline }}</p>
-                </div>
-              </a>
+                </a>
+              </div>
             </div>
-          </div>
+            {% endif %}
           {% endfor %}
 
           <div class="one-third column project">
