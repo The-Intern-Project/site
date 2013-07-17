@@ -62,7 +62,7 @@ layout: default
   <section class="gallery alternate-bg1" id="recent-works">
     <div class="container">
         {% for post in site.posts %}
-          {% if not post.hide_from_front_page %}
+          {% if post.permalink != '/hackathons' %}
             <div class="one-third column project">
               <div class="gallery-padding">
                 <a class="post-item" href="{{ post.url }}" data-category="{{post.categories[0]}}">
