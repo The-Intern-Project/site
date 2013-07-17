@@ -2,7 +2,7 @@
 layout: article
 title: ! 'East Coast Hackathon Schedule - Fall 2013'
 published: true
-hide_from_from_page: true
+hide_from_front_page: true
 author: Intern Project <intern@project.com>
 permalink: /hackathons
 ---
