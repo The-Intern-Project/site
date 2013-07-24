@@ -11,7 +11,7 @@ permalink: /hackathons
 
 Reasons to go: Been around for a while (this is v7 of PennApps), it's a giant event (450+ in the Spring, expecting 900 this time), $10k grand prize and travel reimbursements from (really) places as far away as Japan and Switzerland. The student-run hackathon. Plus, nerf guns.  [pennapps.com/apply](http://pennapps.com/apply)
 
-- Sept 20-22: [MHacks](http://mhacks.com).  Ann Arbor, MI. 24 hours.
+- Sept 20-22: [MHacks](http://facebook.com/MHacksHackathon).  Ann Arbor, MI. 24 hours.
 
 Reasons to go: The contender.  Started in Feb 2013, with 500+ hackers in attendance and aiming for 1,000 this time around.  According to David Fontenot, "The Most Epic Hackathon. Ever."
 
