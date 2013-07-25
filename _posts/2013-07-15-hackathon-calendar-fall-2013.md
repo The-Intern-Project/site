@@ -15,6 +15,10 @@ Reasons to go: Been around for a while (this is v7 of PennApps), it's a giant ev
 
 Reasons to go: The contender.  Started in Feb 2013, with 500+ hackers in attendance and aiming for 1,000 this time around.  According to David Fontenot, "The Most Epic Hackathon. Ever."
 
+- Sept 28-29: [HackNY](http://theinternproject.com/hackathons/): New York, NY.
+
+Reasons to go: Organized by HackNY, a non-profit by professors from Columbia & NYU dedicated to keeping hackers off the (Wall) Street.  Every semester since 2010, so this would be v8.  Great hacker community and a chance to see New York at 5AM when you throw your hands up and wander around looking for doughnuts.
+
 - Sept 27-29: [UOfTHacks](http://uofthacks.com). Toronto, Canada.  36 hours.
 
 Reasons to go: Starting a hackathon, eh guys? First time event featuring seminars, workshops and a keynote.
@@ -27,16 +31,13 @@ Reasons to go: Over $5,000 in prizes, plus a chance to beat an MIT on their home
 
 Reasons to go: Rutgers CS students are an unbelievably creative bunch. They've been throwing this event since 2011, and they're a solid bunch.
 
-- Nov 8-10: [HackPrinceton](http://hackprinceton.com) Princeton NJ 24 hours.
+- Nov 8-10: [HackPrinceton](http://hackprinceton.com) Princeton NJ 48 hours.
 
 Reasons to go: Since 2011.  Featuring a dedicated Hardware Hack Track and what is apparently an unbelievable gorges campus.
 
 Not yet scheduled for the fall:
 -------------------------------
 
-- [HackNY](http://theinternproject.com/hackathons/): New York, NY. TBA, probably in October/November.
-
-Organized by HackNY, a non-profit by professors from Columbia & NYU dedicated to keeping hackers off the (Wall) Street.  Every semester since 2010, so this would be v8.  Great hacker community and a chance to see New York at 5AM when you throw your hands up and wander around looking for doughnuts.
 
 - …and probably others I haven't heard of.  Let us know at wearetheinternproject@gmail.com
 
