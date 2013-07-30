@@ -29,7 +29,7 @@ Reasons to go: Over $5,000 in prizes, plus a chance to beat an MIT on their home
 
 - Oct 11-13: [BoilerMake](http://www.getinvolved.purdue.edu/organization/computerscienceundergraduatestudentboard/calendar/details/257720). West Lafayette, Indiana. 36 hours.
 
-Reasons to go: Purdue sent over 50 hackers to MHacks last spring, and now they're hosting their own. Details still to come, but put it on your calendar.
+Reasons to go: Purdue sent over 50 hackers to MHacks last spring, and now they're hosting their own. Details still forthcoming.
 
 - Oct 12-13: [HackRU](http://www.hackru.org). New Brunswick, NJ. 24 hours.
 
@@ -45,13 +45,11 @@ Reasons to go: Since 2011. Featuring a dedicated Hardware Hack Track and what is
 
 - Nov 15-16: [HackTX](http://hacktx.com/). Austin, TX. 24 hours.
 
-Reasons to go: This is v2, and v1 started strong with 250 hackers. If you're in or near Texas, this is the place to be come November. After all, everything is bigger in Texas.
+Reasons to go: This is v2; and v1 started strong with 250 hackers. Everything is bigger in Texas.
 
 
 Not yet scheduled for the fall:
 -------------------------------
-
-
 - …probably others we haven't heard of. Let us know at wearetheinternproject@gmail.com.
 
 ***And, from the *damn it guys, learn to procrastinate* section, upcoming 2014 hackathon dates include***
