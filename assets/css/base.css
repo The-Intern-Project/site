@@ -329,4 +329,15 @@ body,html{
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 40px !important; }
   
-  #email-signup-text { background-color: white; }
+  	#email-signup-text { background-color: white; }
+  	#info-about {text-align:center; margin-top:20px;}
+  	@media screen and (min-width: 928px){
+    	#email-submit-form {padding-left:30%;}
+	}
+	@media screen and (min-width: 761px) and (max-width: 927px){
+    	#email-submit-form {padding-left:25%;}
+	}
+	@media screen and (max-width: 761px){
+    	#email-submit-form {padding-left:5%;}
+	}
+	#top-resource-bar {margin-top:-20px;}
