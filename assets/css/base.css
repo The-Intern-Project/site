@@ -341,3 +341,6 @@ body,html{
     	#email-submit-form {padding-left:5%;}
 	}
 	#top-resource-bar {margin-top:-20px;}
+	#footer-padding {height:50px;}
+	#last-signup-block {text-align: center; margin-top:30px;}
+	.fb-share-button {top: 2px; position: relative; left:-20px;}

@@ -109,15 +109,8 @@ layout: default
                             <div class="one-third column project">
                                 <div class="gallery-padding">
                                     <div class="img-frame" style="height: 211.9375px">
-                                        <div>
-                                            <h5 id="signup-message">Don't miss out on a curated list of the summer's best <br /><span>hackathons</span>, <span>intern meetups</span>, <span>speakers</span> and <span>startup events</span></h5>
-                                            <div class="success-message" style="text-align: center; padding-top: 10px; font-size: 1.1em;">{% include success-message.ext %}</div>
-                                            <div class="input-append" style="margin-left: 20px;">
-                                                <form action="" class="signup-form">
-                                                    <input class="email-signup-text" name="email" class="email" type="text" placeholder="me@example.com">
-                                                    <button class="color-btn main-btn" class="email-signup-submit">Sign Up</button>
-                                                </form>
-                                            </div>
+                                        <div id='last-signup-block'>
+                                            <h5 id="signup-message">Did we miss something?</br>Have an article that</br>we should include?</br><a href="/tips">Let us know!</a></h5>
                                         </div>
                                     </div>
                                 </div>
@@ -125,10 +118,20 @@ layout: default
                         </div> <!-- ./container -->
                     </section> <!-- ./services -->
 
-
+                    <section class="alternate-bg1">
+                        <div class="container">
+                            <div class="titleBar" id = 'top-resource-bar'><h2>Sponsors</h2></div>
+                            <div class="sixteen columns">
+                                <p>Interested in sponsoring? Email us at <a href="mailto:wearetheinternproject@gmail.com?Subject=Sponsoring%20The%20Intern%20Project" target="_top">wearetheinternproject@gmail.com</a></p>
+                                <!-- <a href = "http://a16z.com">
+                                    <img src = "/assets/img/a16_logo.png" height="36px" />
+                                </a> -->
+                            </div>
+                        </div>
+                    </section>
                     
                 </div> <!-- ./container -->
-
+                <div id= 'footer-padding'></div>
                 {% include footer.ext %}
             </section>
         </div> <!-- ./topBar --> 

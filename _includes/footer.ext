@@ -8,32 +8,24 @@
                     <a href="https://twitter.com/share" class="twitter-share-button" data-text="InternProject.IO - everything you need for an awesome summer in the Bay Area">Tweet</a>
                     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </span>
-                <span class="share facebook-share">
+                <span class="share facebook-share fb-share-button">
                     <iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Finternproject.io&amp;send=false&amp;layout=standard&amp;width=450&amp;show_faces=false&amp;font&amp;colorscheme=light&amp;action=like&amp;height=35&amp;appId=274354229359647" scrolling="no" frameborder="0" style="border:none; width:450px; height:25px;" allowTransparency="true"></iframe>
                 </span>
+            </br>
+                <span style="color: grey;">With Love by
+                    <a href="http://twitter.com/theAlexPoon">Alex Poon</a>,
+                    <a href="http://alexeymk.com/">Alexey Komissarouk</a>,
+                    <a href="http://owenwang.com">Owen Wang</a>,
+                    <a href="http://tessrinearson.com/">Tess Rinearson</a>, and
+                    <a href="http://katiesiegel.info">Katie Siegel</a>
+                    <!-- TODO - less awkward attribution model -->
+                </span>
             </div>
-            <span style="color: grey;">
-                Did we miss something? Have an article we should include? <a href="/tips">Let us know!</a>
-            </span>
-<br />
-    		<span style="color: grey;">With Love by
-                <a href="http://twitter.com/theAlexPoon">Alex Poon</a>,
-                <a href="http://alexeymk.com/">Alexey Komissarouk</a>,
-                <a href="http://owenwang.com">Owen Wang</a>,
-                <a href="http://tessrinearson.com/">Tess Rinearson</a>, and
-                <a href="http://katiesiegel.info">Katie Siegel</a>
-                <!-- TODO - less awkward attribution model -->
-            </span>
+            
+    		
         </div>
 
-    <div class = "a16z">
-        <div class = "sponsors-headline">
-            Our Partners for 2013
-        </div>
-        <a href = "http://a16z.com">
-            <img src = "/assets/img/a16_logo.png" height="36px" />
-        </a>
-    </div>
+    
     <div style = "clear:both"></div>
 
 	</div><!-- ./container -->
