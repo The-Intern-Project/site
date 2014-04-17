@@ -56,7 +56,7 @@ jQuery(document).ready(function ($) {
     if (!isEmail(email)) {
       alert("Make sure your email address is correct.");
       return false;
-    } else if (!/edu/.test(email)) {
+    } else if (/com/.test(email)) {
       if (!window.edu_warning_given) {
         alert("Warning: make sure to sign up with a .edu to be hear about intern-only events");
         window.edu_warning_given = true;
