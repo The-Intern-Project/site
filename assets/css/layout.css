@@ -1173,7 +1173,7 @@ ul.plan .order-btn{
 
 /* SPONSOR LOGOS
 ============================== */
-.logo img {
+img.logo {
   max-height: 60px;
   vertical-align: middle;
 }
