@@ -8,154 +8,154 @@ layout: default
 <!--[if IE 8 ]><html class="ie ie8" lang="en-US"> <![endif]-->
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en-US"><!--<![endif]-->
-    <head>
-        <meta name="description" content="The intern project helps interns find the best places to live, great places to eat, and helps them get the most out of their internship. Sign up on the mailing list to find out more about events and meet people!" />
-        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-          <!-- Basic Page Needs
-          ================================================== -->
-        <meta charset="UTF-8">
-        <title>The Intern Project</title>
+		<head>
+				<meta name="description" content="The intern project helps interns find the best places to live, great places to eat, and helps them get the most out of their internship. Sign up on the mailing list to find out more about events and meet people!" />
+				<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+					<!-- Basic Page Needs
+					================================================== -->
+				<meta charset="UTF-8">
+				<title>The Intern Project</title>
 
-          <!-- Mobile Specific Metas
-          ================================================== -->
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+					<!-- Mobile Specific Metas
+					================================================== -->
+				<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-            <!-- CSS
-          ================================================== -->
-
-
+						<!-- CSS
+					================================================== -->
 
 
-          <!--[if lt IE 9]>
-            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-          <![endif]-->
 
-        <meta name="robots" content="noindex,nofollow">
-        <link rel="alternate" type="application/rss+xml" title="Parallax » Feed" href="http://themes.webcreations907.com/ninezeroseven/option-one/feed/">
-        <link rel="alternate" type="application/rss+xml" title="Parallax » Comments Feed" href="http://themes.webcreations907.com/ninezeroseven/option-one/comments/feed/">
-        {% include scripts.ext %}
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://themes.webcreations907.com/ninezeroseven/option-one/xmlrpc.php?rsd">
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themes.webcreations907.com/ninezeroseven/option-one/wp-includes/wlwmanifest.xml">
-        <meta name="generator" content="WordPress 3.5.1">
-    </head>
 
-    <body class="home blog">
+					<!--[if lt IE 9]>
+						<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+					<![endif]-->
 
-    <!-- Primary Page Layout
-      ================================================== -->
+				<meta name="robots" content="noindex,nofollow">
+				<link rel="alternate" type="application/rss+xml" title="Parallax » Feed" href="http://themes.webcreations907.com/ninezeroseven/option-one/feed/">
+				<link rel="alternate" type="application/rss+xml" title="Parallax » Comments Feed" href="http://themes.webcreations907.com/ninezeroseven/option-one/comments/feed/">
+				{% include scripts.ext %}
+				<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://themes.webcreations907.com/ninezeroseven/option-one/xmlrpc.php?rsd">
+				<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://themes.webcreations907.com/ninezeroseven/option-one/wp-includes/wlwmanifest.xml">
+				<meta name="generator" content="WordPress 3.5.1">
+		</head>
 
-    <!-- TOP BAR -->
-        <section class="headerContent entry">
-          <div class="super">
-            <div class="container message">
-                    <div id="slidecaption">
-                      <h2>The Intern Project</h2><br>
-                        <p>Back for the summer of 2015 to make sure you have an awesome time.</p><br>
-                    </div>
-            </div>
-          </div>
-        </section> <!-- ./headerContent -->
+		<body class="home blog">
 
-        <div class="full-header" id="top-sticky-wrapper">
-            <section class="topBar" id="top">
-                <div class="container">
+		<!-- Primary Page Layout
+			================================================== -->
 
-                    <!-- DROP DOWN ENDS -->
+		<!-- TOP BAR -->
+				<section class="headerContent entry">
+					<div class="super">
+						<div class="container message">
+										<div id="slidecaption">
+											<h2>The Intern Project</h2><br>
+												<p>Back for the summer of 2016 to make sure you have an awesome time.</p><br>
+										</div>
+						</div>
+					</div>
+				</section> <!-- ./headerContent -->
 
-                    <section class="alternate-bg1">
-                        <div class="container">
-                            <div class="sixteen columns">
-                                <div id="info-about">
-                                    <p>Don't miss out on a curated list of the summer's best hackathons, intern meetups, speakers, and startup events! </br>Sign up below to keep updated.</p>
-                                    <a href="http://eepurl.com/XBZ1L" class="btn color-btn main-btn">Subscribe</a>
-                                </div>
-                            </div>
-                        </div>
-                    </section>
+				<div class="full-header" id="top-sticky-wrapper">
+						<section class="topBar" id="top">
+								<div class="container">
 
-                    <section class="gallery alternate-bg1" id="recent-works">
-                        <div class="container">
-                            <div class="titleBar" id = 'top-resource-bar'><h2>Resources</h2></div>
-                            {% for post in site.posts %}
-                            {% unless post.hide_from_front_page %}
-                            <div class="one-third column project">
-                                <div class="gallery-padding">
-                                    <a class="post-item" href="{{ post.url }}" data-category="{{post.categories[0]}}">
-                                        <h6><span>{{post.categories[0] | replace: '-', ' '}}</span></h6>
-                                        <div class="img-frame">
-                                            <div class="image-wrapper">
-                                                <img src="{{ post.image_url }}" class="scale-with-grid">
-                                                <div class="mouse-effect"></div>
-                                            </div>
-                                            <h5>{{ post.title }}</h5>
-                                            <p>{{ post.tagline }}</p>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                            {% endunless %}
-                            {% endfor %}
+										<!-- DROP DOWN ENDS -->
 
-                            <div class="one-third column project">
-                                <div class="gallery-padding">
-                                    <div class="img-frame" style="height: 211.9375px">
-                                        <div id='last-signup-block'>
-                                            <h5 id="signup-message">Did we miss something?</br>Have an article that</br>we should include?</br><a href="/tips">Let us know!</a></h5>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div> <!-- ./container -->
-                    </section> <!-- ./services -->
+										<section class="alternate-bg1">
+												<div class="container">
+														<div class="sixteen columns">
+																<div id="info-about">
+																		<p>Don't miss out on a curated list of the summer's best hackathons, intern meetups, speaker events, and startup events! </br>Sign up below to keep updated.</p>
+																		<a href="http://eepurl.com/XBZ1L" class="btn color-btn main-btn">Subscribe</a>
+																</div>
+														</div>
+												</div>
+										</section>
 
-                    <section class="alternate-bg1">
-                        <div class="container">
-                            <div class="titleBar" id = 'top-resource-bar'><h2>Sponsors</h2></div>
-                            <div class="one-third column logo">
-                                <a href = "http://a16z.com">
-                                    <img src = "/assets/img/a16z.png">
-                                </a>
-                            </div>
-                            <div class="one-third column logo">
-                                <a href = "https://www.dropbox.com/">
-                                    <img src = "/assets/img/dropbox.png">
-                                </a>
-                            </div>
-                            <div class="one-third column logo">
-                                <a href = "https://www.google.com/">
-                                    <img src = "/assets/img/google.png">
-                                </a>
-                            </div>
-                            <div class="one-third column logo" style="margin-top: -23px;">
-                                <a href = "http://www.yelp.com/">
-                                    <img src = "/assets/img/yelp.png">
-                                </a>
-                            </div>
-                            <div class="one-third column logo">
-                                <a href = "http://www.oracle.com/">
-                                    <img src = "/assets/img/oracle.png">
-                                </a>
-                            </div>
-                            <div class="one-third column logo">
-                                <a href = "http://www.jawbone.com/">
-                                    <img src = "/assets/img/jawbone.png">
-                                </a>
-                            </div>
-                            <div class="row">
-                                <p>Interested in sponsoring? Click <a href='/assets/docs/theinternproject_sponsor_document.pdf'>here</a>.</p>
-                            </div>
-                        </div>
-                    </section>
+										<section class="gallery alternate-bg1" id="recent-works">
+												<div class="container">
+														<div class="titleBar" id = 'top-resource-bar'><h2>Resources</h2></div>
+														{% for post in site.posts %}
+														{% unless post.hide_from_front_page %}
+														<div class="one-third column project">
+																<div class="gallery-padding">
+																		<a class="post-item" href="{{ post.url }}" data-category="{{post.categories[0]}}">
+																				<h6><span>{{post.categories[0] | replace: '-', ' '}}</span></h6>
+																				<div class="img-frame">
+																						<div class="image-wrapper">
+																								<img src="{{ post.image_url }}" class="scale-with-grid">
+																								<div class="mouse-effect"></div>
+																						</div>
+																						<h5>{{ post.title }}</h5>
+																						<p>{{ post.tagline }}</p>
+																				</div>
+																		</a>
+																</div>
+														</div>
+														{% endunless %}
+														{% endfor %}
 
-                </div> <!-- ./container -->
-                <div id= 'footer-padding'></div>
-                {% include footer.ext %}
-            </section>
-        </div> <!-- ./topBar -->
+														<div class="one-third column project">
+																<div class="gallery-padding">
+																		<div class="img-frame" style="height: 211.9375px">
+																				<div id='last-signup-block'>
+																						<h5 id="signup-message">Did we miss something?</br>Have an article that</br>we should include?</br><a href="/tips">Let us know!</a></h5>
+																				</div>
+																		</div>
+																</div>
+														</div>
+												</div> <!-- ./container -->
+										</section> <!-- ./services -->
 
-        <!-- ENDS TOP BAR -->
+										<section class="alternate-bg1">
+												<div class="container">
+														<div class="titleBar" id = 'top-resource-bar'><h2>Sponsors</h2></div>
+														<div class="one-third column logo">
+																<a href = "http://a16z.com">
+																		<img src = "/assets/img/a16z.png">
+																</a>
+														</div>
+														<div class="one-third column logo">
+																<a href = "https://www.dropbox.com/">
+																		<img src = "/assets/img/dropbox.png">
+																</a>
+														</div>
+														<div class="one-third column logo">
+																<a href = "https://www.google.com/">
+																		<img src = "/assets/img/google.png">
+																</a>
+														</div>
+														<div class="one-third column logo" style="margin-top: -23px;">
+																<a href = "http://www.yelp.com/">
+																		<img src = "/assets/img/yelp.png">
+																</a>
+														</div>
+														<div class="one-third column logo">
+																<a href = "http://www.oracle.com/">
+																		<img src = "/assets/img/oracle.png">
+																</a>
+														</div>
+														<div class="one-third column logo">
+																<a href = "http://www.jawbone.com/">
+																		<img src = "/assets/img/jawbone.png">
+																</a>
+														</div>
+														<div class="row">
+																<p>Interested in sponsoring? Click <a href='/assets/docs/theinternproject_sponsor_document.pdf'>here</a>.</p>
+														</div>
+												</div>
+										</section>
 
-        <div class="clear"></div>
+								</div> <!-- ./container -->
+								<div id= 'footer-padding'></div>
+								{% include footer.ext %}
+						</section>
+				</div> <!-- ./topBar -->
 
-    </body>
+				<!-- ENDS TOP BAR -->
+
+				<div class="clear"></div>
+
+		</body>
 </html>
